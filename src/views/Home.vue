@@ -11,7 +11,10 @@ import Main from '@/components/Main.vue'
 
 export default {
   name: 'Home',
-  components: { Swiper, Main }
+  components: {
+    Swiper,
+    Main
+  }
 }
 </script>
 

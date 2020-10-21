@@ -5,7 +5,7 @@ image{will-change: transform}
 .scroll-row-item{ display: inline-block; }
 
 body{
-	--primary:#02b3ff;
+	--primary:#e4421a;
 	--secondary: #0172a2;
 	--success: #28a745;
 	--danger: #dc3545;
@@ -41,7 +41,7 @@ button:active {
 	/* transform: translate(1px, 1px) !important; */
 }
 .hover:hover {
-	color: var(--info)!important;
+	color: var(--danger)!important;
 }
 input:focus,
 textarea:focus{ outline: .5px solid var(--info)!important;}
@@ -82,6 +82,10 @@ textarea:focus{ outline: .5px solid var(--info)!important;}
 .overflow-s{overflow: scroll;}
 .overflow-x{overflow-x: scroll;overflow-y: hidden;}
 .overflow-y{overflow-y: scroll;overflow-x: hidden;}
+.text-overflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
 /* 宽高 */
 .w-100{ width: 100%;}
 .w-50{ width: 50%;}

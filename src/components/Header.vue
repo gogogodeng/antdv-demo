@@ -1,8 +1,8 @@
 <template>
   <div class="header">
     <div class="d-flex j-start a-end" style="white-space: nowrap;">
-      <div class="font-big font-weight">
-        乐逗玩科技
+      <div class="font-big font-weight text-muted">
+        {{data.webtitle}}
       </div>
       <div class="d-flex text-center" style="margin-left: 100px;height: 40px;">
         <input placeholder="输入搜索信息" type="text" style="line-height: 30px;padding: 0 10px;width: 400px;" class="input font-md border-primary">
@@ -29,32 +29,20 @@
 
 <script>
 import { SearchOutlined } from '@ant-design/icons-vue'
-import { reactive } from 'vue'
+import data from '@/assets/js/data.js'
 
 export default {
   components: {
     SearchOutlined
   },
+  data () {
+    return {
+      data: data.webinfo
+    }
+  },
   methods: {
     link () {
       this.$router.push('/publish')
-    }
-  },
-  setup () {
-    const state = reactive({
-      form: {
-        user: '',
-        password: ''
-      }
-    })
-
-    function handleSubmit () {
-      console.log(state.form)
-    }
-
-    return {
-      state,
-      handleSubmit
     }
   }
 }

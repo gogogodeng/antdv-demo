@@ -1,15 +1,15 @@
 <template>
   <div class="my-2">
     <div class="title d-flex j-sb a-center">
-      <div class="subtitle border-bottom border-primary position-relative">
+      <div class="subtitle border-left border-warning position-relative">
         <div class="position-absolute" style="white-space: nowrap;">
           <div class="text-left">
             {{title}}
           </div>
         </div>
       </div>
-      <div class="more bg-light font text-muted click">
-        <div class="d-inline-block" @click="link">查看更多</div>
+      <div class="more bg-light rounded font text-muted click">
+        <div class="d-inline-block" @click="link"></div>
         <RightOutlined />
       </div>
     </div>
@@ -49,7 +49,8 @@ export default {
     height: 30px;
     > div {
       white-space: nowrap;
-      top: -8px;
+      top: -2px;
+      left: 5px;
     }
   }
   .more {

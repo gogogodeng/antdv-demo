@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-center border-top py-3 bg-secondary text-white">
+  <footer class="text-center border-top py-3 bg-light">
     <p>{{webinfo.webname}}</p>
     <p>{{webinfo.address}}</p>
     <p><a :href="webinfo.beianlink">{{webinfo.beian}}</a></p>

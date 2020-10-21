@@ -22,9 +22,7 @@ export default {
   props: {
     list: {
       type: Array,
-      default: () => [
-        { img: '../assets/logo.png', title: '哈哈哈哈' }
-      ]
+      default: () => []
     },
     name: {
       type: String,
