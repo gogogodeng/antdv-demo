@@ -1,4 +1,10 @@
-# antv
+# antv-demo
+
+this is a static web demo ( vue3.0 + antdv )
+
+## First Setup
+
+npm i @vue/cli -g
 
 ## Project setup
 ```
