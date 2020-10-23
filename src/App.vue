@@ -12,7 +12,11 @@ import Layout from '@/views/Layout.vue'
 export default {
   components: {
     Layout
-  }
+  },
+  mounted(){
+    document.getElementById('app').style.display = 'block';
+    document.getElementById('appLoading').style.display = 'none';	
+	}
 }
 </script>
 
