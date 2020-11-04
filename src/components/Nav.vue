@@ -14,6 +14,9 @@
 				<div class="border-right">
 					<a class="d-block px-2 text-white click hover w-100 h-100" href="cs.html" target="_blank">安全监管措施</a>
 				</div>
+        <div class="border-right">
+        	<a class="d-block px-2 text-white click hover w-100 h-100" href="wq.html" target="_blank">维权中心</a>
+        </div>
       </div>
     </div>
   </Anchor>

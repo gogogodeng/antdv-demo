@@ -1,0 +1,102 @@
+var burying = function(type , evLable , evParams , pid , entityid , url , ref){
+  //获取网络环境
+ function getNetworkType() {
+     var ua = navigator.userAgent;
+     var networkStr = ua.match(/NetType\/\w+/) ? ua.match(/NetType\/\w+/)[0] : 'NetType/other';
+     networkStr = networkStr.toLowerCase().replace('nettype/', '');
+     var networkType;
+     switch (networkStr) {
+       case 'wifi':
+         networkType = 'wifi';
+         break;
+       case '4g':
+         networkType = '4g';
+         break;
+       case '3g':
+         networkType = '3g';
+         break;
+       case '3gnet':
+         networkType = '3g';
+         break;
+       case '2g':
+         networkType = '2g';
+         break;
+       default:
+         networkType = 'other';
+     }
+     return networkType;
+   }
+   
+   //获取屏幕高宽
+function getScreenHeightWidth () {
+     return {
+       height: window.screen.height,
+       width: window.screen.width,
+     }
+   }
+   
+   //获取query参数
+function getQueryString(name) {
+     var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+     var r = window.location.search.substr(1).match(reg);
+     if (r != null) {
+       return unescape(r[2]);
+     }
+     return null;
+   }
+
+ //获取cookie
+ function getCookie  (name)  {
+     var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+     if (arr = document.cookie.match(reg))
+       return unescape(arr[2]);
+     else
+       return '';
+   }
+
+ function getUid(name) {
+    var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+    if (arr = document.cookie.match(reg)) {
+        return decodeURI(arr[2]).split("userid=")[1].split("&")[0];
+    } else {
+        return false;
+    }
+  }
+
+ var version = getCookie('version') || getCookie('cversion');
+ var platform ="www";
+ var networkType = getNetworkType();
+ var screen = getScreenHeightWidth();
+ var sc = screen.width+'*'+screen.height;
+ var getTime = new Date().getTime();
+ var sourceId = getQueryString('templateId');
+ var city = getCookie('city');
+ var cid = getCookie('xxzl_cid');
+ var uid = getUid('58cooper');
+ if( !getUid('58cooper')&& getCookie('PPU') ){
+     var ppu = getCookie('PPU');
+     var ppuArr = ppu.split('&');
+     var uids = ppuArr[0].split('=')[1];
+     uid = uids;
+ }
+ var imei = getCookie('imei') || getCookie('cimei');
+ var location = getCookie('location');
+ var mac = getCookie('58mac') || getCookie('m');
+ 
+function buryingfunc  (type , evLable , evParams , pid , entityid , url , ref )  {
+     var trackUrl = "{'app-id':'wq-0','app':"+version+",'tag':'w','userid':"+uid+",'entityid':"+entityid+",'cid':"+cid+",'cityid':"+city+",'platform':"+platform+",'ev-label':"+evLable+",'ev-params':"+evParams+",'net':"+networkType+",'source':"+sourceId+",'sc':"+sc+",'ts':"+getTime+",'imei':"+imei+",'mac':"+mac+",'pid':"+pid+",'url':"+url+",'ref':"+ref+",'location':"+location+",'pagetype':'wq','page':"+evLable+"}";
+     if (type === '1') {
+         window.xxzlTrack({
+             trackURL: trackUrl,
+             trackParams: '',
+             openMonitor: false,
+         })
+     }
+ 
+     if(type === '2'){
+         window.xxzlClicklog("from="+evLable+"&connect=wq_"+pid+"_"+evLable+"&app-id=wq-0&app="+version+"&tag=c&userid="+uid+"&entityid="+entityid+"&cid="+cid+"&cityid="+city+"&platform="+platform+"&ev-label="+evLable+"&ev-params="+evParams+"&net="+networkType+"&source="+sourceId+"&sc="+sc+"&ts="+getTime+"&imei="+imei+"&mac="+mac+"&pid="+pid+"&url="+url+"&ref="+ref+"&location="+location+"");
+     }
+ }
+ buryingfunc(type , evLable , evParams , pid , entityid , url , ref)
+}
+
