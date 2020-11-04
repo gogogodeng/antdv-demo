@@ -1,0 +1,377 @@
+var url = window.location.href;
+var ref = document.referrer || "";
+
+var init = {
+  // header
+  header: function () {
+    var _html = "";
+    _html += '<div class="headerBar">';
+    _html += '<div class="headerWrap">';
+    _html +=
+      '<h1 class ="logo"><img src="//img.58cdn.com.cn/resource/xxzl/big_custom_ser/pc_center/center_logo.png" alt="维权中心"><span>维权中心</span></h1>';
+    _html += "</div>";
+    _html += "</div>";
+    return _html;
+  },
+  // wrap
+  main: function () {
+    var _html = "";
+    _html += '<div class="main"></div>';
+    return _html;
+  },
+  // 投诉类型
+  voteType: function () {
+    var _html = "";
+    _html += '<div class="voteType">';
+    _html +=
+      '<div class="tit"><span class="icon"></span><em>请选择您要投诉的类型</em></div>';
+    _html += '<ul class="voteList">';
+    _html +=
+      '<li class="voteBox"><div class="voteContent"><span>招聘</span><em>职介公司不专业</em></div><div class="hover" businessline="1" log="zhaopin-click">去投诉 ></div></li>';
+    _html +=
+      '<li class="voteBox"><div class="voteContent"><span>房产</span><em>房屋损坏纠纷</em></div><div class="hover" businessline="6" log="fangchan-click">去投诉 ></div></li>';
+    _html +=
+      '<li class="voteBox"><div class="voteContent"><span>二手车</span><em>隐瞒车况等纠纷</em></div><div class="hover" businessline="4" log="ershouche-click">去投诉></div></li>';
+    _html +=
+      '<li class="voteBox"><div class="voteContent"><span>二手市场</span><em>电脑手机配置不符</em></div><div class="hover" businessline="3" log="">去投诉 ></div></li>';
+    _html +=
+      '<li class="voteBox"><div class="voteContent"><span>宠物</span><em>买了小狗是病狗</em></div><div class="hover" businessline="5" log="chongwu-click">去投诉  </div></li>';
+    _html +=
+      '<li class="voteBox"><div class="voteContent"><span>本地服务</span><em>东西未完全修好</em></div><div class="hover" businessline="7" log="huangye-click">去投诉 ></div></li>';
+    _html += "</ul>";
+    _html += '<div class="mess">';
+    // _html += '<p><span class="mess_icon"></span>我被骗取财物希望快速锁定骗子，点击<a href="javascript:void(0);" class="baoan" log="baoan-click">我要报案</a></p>';
+    _html +=
+      '<p class="smess">企业被冒用，点击<a href="javascript:void(0);" class="jubao" log="maoyong-click">我要举报</a></p>';
+    _html += '<p class="smess">发现信息违规虚假，进入信息详情页点击举报</p>';
+    _html += "</div>";
+    _html += "</div>";
+    return _html;
+  },
+  // 处理流程
+  voteLc: function () {
+    var _html = "";
+    _html += '<div class="voteLc">';
+    _html +=
+      '<div class="tit"><span class="icon"></span><em>投诉处理流程</em></div>';
+    _html +=
+      '<div class="lcMain"><img src="//img.58cdn.com.cn/resource/xxzl/right_center/bg_lc.png" /></div>';
+    _html += "</div>";
+    return _html;
+  },
+  // 投诉记录
+  voteRecord: function () {
+    var _html = "";
+    _html += '<div class="voteRecord">';
+    _html +=
+      '<div class="tit"><span class="icon"></span><em>投诉记录</em></div>';
+    _html += '<div class="recordCard">';
+    _html +=
+      '<ul class="nav"><li class="on" type="1">我发起的</li><li type="2">我收到的</li></ul>';
+    _html += '<div class="recordList">';
+    _html += '<ol class="navTitle">';
+    _html +=
+      '<li class="vote_per">被投诉人</li><li class="vote_time">提交时间</li><li>状态</li><li>操作</li>';
+    _html += "</ol>";
+    _html += '<div class="noVote"> ';
+    _html += '<span class="icon_no"></span>';
+    _html += '<p class="vote_txt"></p>';
+    _html += "</div>";
+    _html += '<div class="voteList"></div>';
+    _html += "</div>";
+    _html += '<div class="m-style M-box3"></div>';
+    _html += "</div>";
+    _html += "</div>";
+    return _html;
+  },
+  // 页脚
+  footer: function () {
+    var _html = "";
+    _html += '<div class="footer">';
+    _html +=
+      '<p><a target="_blank" href="//about.58.com/home2/home_pc/index.html"><span>关于58</span></a>|<a target="_blank" href="//help.58.com/help_pc/index.html"><span>客户帮助</span></a>|<a target="_blank" href="//help.58.com/help_pc/wzjyym/index.html?utm_source=market&spm=b-31580022738699-me-f-824.bdpz_biaoti&PGTID=0d100000-0000-1797-9076-014bd6f3cac4&ClickID=23"><span>意见反馈</span></a>|<a target="_blank" href="//help.58.com/help_pc/yhfwxy/936.html"><span>58同城维权中心保障计划协议</span></a></p>';
+    _html += "</div>";
+    return _html;
+  },
+  addWmda: function () {
+    var wmda = document.createElement("script");
+    wmda.type = "text/javascript";
+    wmda.async = true;
+    wmda.src =
+      "//j1.58cdn.com.cn/wmda/js/statistic.js?t=" + new Date().getTime();
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(wmda, s);
+  },
+  initWmda: function () {
+    window.WMDA_SDK_CONFIG = {
+      api_v: 1,
+      sdk_v: 0.1,
+      mode: "report",
+      appid: 9031146032308,
+      key: "bvj2a034",
+      project_id: "9030938947249",
+    };
+  },
+};
+// 投诉记录列表
+var pageCount = 0;
+var type = 1;
+var record = {
+  getVote: function (url, param) {
+    var _that = this;
+    this.getData(url, param, function (data) {
+      if (data.code == 0) {
+        console.log(data.dataList);
+        if (data.dataList.length == 0) {
+          type == 1
+            ? $(".vote_txt").html("您近六个月未发起投诉！")
+            : $(".vote_txt").html("您近六个月未收到投诉！");
+          $(".noVote").show();
+          $(".recordList .voteList").html("");
+          $(".M-box3").hide();
+          return;
+        } else {
+          $(".noVote").hide();
+          $(".M-box3").show();
+          var _html = "";
+          var complaintHtml = "";
+          var beComplaintHtml = "";
+          var dataList = data.dataList;
+          for (var i = 0; i < dataList.length; i++) {
+            var name =
+              type == 1 ? dataList[i].voterName : dataList[i].accusedName;
+            complaintHtml +=
+              '<div class="voteMess"><span>' +
+              name +
+              "</span><span>" +
+              dataList[i].voteTime +
+              "</span><span>" +
+              dataList[i].voteStatusDesc +
+              '</span><span class="btn_detail" voteId="' +
+              dataList[i].voteId.toString() +
+              '">查看</span></div>';
+            beComplaintHtml +=
+              '<div class="voteMess"><span style="width:20%">' +
+              dataList[i].businessLineName +
+              '</span><span style="width:20%">' +
+              name +
+              '</span><span style="width:20%">' +
+              dataList[i].voteTime +
+              '</span><span style="width:20%">' +
+              dataList[i].voteStatusDesc +
+              '</span><span style="width:20%" class="btn_detail" voteId="' +
+              dataList[i].voteId.toString() +
+              '">查看</span></div>';
+          }
+          _html = type == 1 ? complaintHtml : beComplaintHtml;
+          $(".recordList .voteList").html(_html);
+          pageCount = data.totalCount;
+          $(".M-box3").pagination({
+            pageCount: Math.ceil(pageCount / 10),
+            jump: true,
+            coping: true,
+            homePage: "首页",
+            endPage: "末页",
+            prevContent: "上页",
+            nextContent: "下页",
+            callback: function (api) {
+              console.log(api.getCurrent());
+              var data = {
+                pageno: api.getCurrent(),
+                pagesize: 10,
+                roletype: type,
+              };
+              $.getJSON(
+                "//weiquan.58.com/complaint?t=" + new Date().getTime(),
+                data,
+                function (data) {
+                  var _html = "";
+                  var complaintHtml = "";
+                  var beComplaintHtml = "";
+                  var dataList = data.dataList;
+                  for (var i = 0; i < dataList.length; i++) {
+                    var name =
+                      type == 1
+                        ? dataList[i].voterName
+                        : dataList[i].accusedName;
+                    complaintHtml +=
+                      '<div class="voteMess"><span>' +
+                      name +
+                      "</span><span>" +
+                      dataList[i].voteTime +
+                      "</span><span>" +
+                      dataList[i].voteStatusDesc +
+                      '</span><span class="btn_detail" voteId="' +
+                      dataList[i].voteId.toString() +
+                      '">查看</span></div>';
+                    beComplaintHtml +=
+                      '<div class="voteMess"><span style="width:20%">' +
+                      dataList[i].businessLineName +
+                      '</span><span style="width:20%">' +
+                      name +
+                      '</span><span style="width:20%">' +
+                      dataList[i].voteTime +
+                      '</span><span style="width:20%">' +
+                      dataList[i].voteStatusDesc +
+                      '</span><span style="width:20%" class="btn_detail" voteId="' +
+                      dataList[i].voteId.toString() +
+                      '">查看</span></div>';
+                  }
+                  _html = type == 1 ? complaintHtml : beComplaintHtml;
+                  $(".recordList .voteList").html(_html);
+                  $(".btn_detail").click(function () {
+                    var voteId = $(this).attr("voteId");
+                    burying(
+                      "2",
+                      "view-safeguard",
+                      `tab=${type}`,
+                      "wq-01",
+                      voteId,
+                      url,
+                      ref
+                    ); //埋点
+                    window.location.href =
+                      "//weiquan.58.com/complaint/detail/?voteId=" +
+                      voteId +
+                      "&roletype=" +
+                      type;
+                  });
+                }
+              );
+            },
+          });
+
+          $(".recordList .voteList").show();
+
+          $(".btn_detail").click(function () {
+            var voteId = $(this).attr("voteId");
+            burying(
+              "2",
+              "view-safeguard",
+              `tab=${type}`,
+              "wq-01",
+              voteId,
+              url,
+              ref
+            ); //埋点
+            window.location.href =
+              "//weiquan.58.com/complaint/detail/?voteId=" +
+              voteId +
+              "&roletype=" +
+              type;
+          });
+        }
+      }
+    });
+  },
+  getData: function (url, param, callback) {
+    $.ajax({
+      url: url,
+      dataType: "json",
+      type: "get",
+      data: param,
+      success: function (result) {
+        callback(result);
+      },
+      error: function () {
+        callback();
+      },
+    });
+  },
+};
+$(function () {
+  /** ------INIT WMDA ------*/
+  init.addWmda();
+  init.initWmda();
+  /**-----------------------*/
+  $("#wrap").append(init.header());
+  $("#wrap").append(init.main());
+  $(".main").append(init.voteType());
+  $(".main").append(init.voteLc());
+  $(".main").append(init.voteRecord());
+  $("#wrap").append(init.footer());
+
+  burying("1", "safeguard-page", "", "wq-01", "", url, ref); //埋点
+  //悬浮效果
+  $(".voteBox").hover(
+    function () {
+      $(this).find(".hover").show();
+    },
+    function () {
+      $(this).find(".hover").hide();
+    }
+  );
+  $(".hover").click(function () {
+    var businessline = $(this).attr("businessline");
+    var log = $(this).attr("log");
+    var param = "";
+    if (businessline == "1") {
+      param = 6;
+      console.log(param);
+    } else if (businessline == "6") {
+      param = 1;
+    } else if (businessline == "4") {
+      param = 2;
+    } else if (businessline == "3") {
+      param = 3;
+    } else if (businessline == "5") {
+      param = 4;
+    } else {
+      param = 5;
+    }
+    burying(
+      "2",
+      "complaint-safeguard",
+      `business=${param}`,
+      "wq-01",
+      "",
+      url,
+      ref
+    ); //埋点
+    window.location.href =
+      "//weiquan.58.com/complaint/search/?businessline=" + businessline;
+  });
+  $(".baoan").click(function () {
+    burying("2", "lock-safeguard", "button=1", "wq-01", "", url, ref); //埋点
+    var log = $(this).attr("log");
+    window.open("//110.58.com/");
+  });
+  $(".jubao").click(function () {
+    burying("2", "lock-safeguard", "button=2", "wq-01", "", url, ref); //埋点
+    var log = $(this).attr("log");
+    window.open(
+      "//about.58.com/voteProof/stepOneToStepTwo?voteSource=2&cateCode=0&needUserLogin=1&relationInfoId=-1&from=voteProof2_0"
+    );
+  });
+
+  // 投诉记录默认展示
+  var param = {
+    pageno: 1,
+    pagesize: 10,
+    roletype: type,
+  };
+  record.getVote("//weiquan.58.com/complaint?t=" + new Date().getTime(), param);
+  // 投诉记录选项卡切换
+  $(".recordCard").on("click", " .nav li", function () {
+    $(this).addClass("on").siblings().removeClass("on");
+    type = $(this).attr("type");
+    burying("2", "record-safeguard", `tab=${type}`, "wq-01", "", url, ref); //埋点
+    var complaintHtml =
+      '<ol class="navTitle"><li class="vote_per">被投诉人</li><li class="vote_time">提交时间</li><li>状态</li><li>操作</li></ol>';
+    var beComplaintHtml =
+      '<ol class="navTitle"><li style="width:20%">业务线</li><li class="vote_per" style="width:20%">被投诉人</li><li class="vote_time" style="width:20%">提交时间</li><li style="width:20%">状态</li><li style="width:20%">操作</li></ol>';
+    $(".navTitle").append(type == 1 ? complaintHtml : beComplaintHtml);
+    type == 1
+      ? $(".navTitle").replaceWith(complaintHtml)
+      : $(".navTitle").replaceWith(beComplaintHtml);
+    var voteName = type == 1 ? "被投诉人" : "投诉人";
+    var voteTime = type == 1 ? "提交时间" : "收到时间";
+    $(".vote_per").html(voteName);
+    $(".vote_time").html(voteTime);
+    record.getVote("//weiquan.58.com/complaint?t=" + new Date().getTime(), {
+      pageno: 1,
+      pagesize: 10,
+      roletype: type,
+    });
+  });
+});

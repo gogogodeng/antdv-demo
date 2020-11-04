@@ -1,0 +1,293 @@
+/* 维权中心首页 limengru 2018.07.19 */
+body{
+    background-color: #f6f5f6;
+    min-width:1190px;
+}
+.logo img{margin-top:14px;margin-right: 14px;float: left;}
+.logo span{
+    font-size: 36px;color: #fff;float: left;
+}
+.headerBar{
+    width: 100%;
+    height: 83px;
+    line-height: 83px;
+    background-color: #e4421a;
+}
+.headerBar .headerWrap{
+    margin: 0 auto;
+    width: 1190px;
+    height: auto;
+}
+.headerBar .headerWrap .logo{
+    margin-left: 80px;
+}
+.main{
+    margin: 0 auto;
+    padding-bottom: 58px;
+    width: 1190px;
+    min-height: 320px;
+    background-color: #fff;
+}
+.main .voteType,
+.main .voteLc,
+.main .voteRecord {
+    margin: 0 auto;
+    padding-top: 36px;
+    padding-bottom: 30px;
+    width: 1031px;
+    height: auto;
+    border-bottom: 1px solid #E6EAEE;
+}
+.main .voteRecord{
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+.main .voteType .tit .icon ,
+.main .voteLc .tit .icon,
+.main .voteRecord .tit .icon{
+    display: inline-block;
+    width: 20px;
+    height: 23px;
+}
+/* .main .voteType .tit .icon{
+    background: url('//img.58cdn.com.cn/resource/xxzl/big_custom_ser/pc_center/icon_type.png') left center no-repeat;
+}
+.main .voteLc .tit .icon{
+    width: 24px;
+    background: url('//img.58cdn.com.cn/resource/xxzl/big_custom_ser/pc_center/icon_lc.png') left center no-repeat;
+}
+.main .voteRecord .tit .icon {
+    background: url('//img.58cdn.com.cn/resource/xxzl/big_custom_ser/pc_center/icon_jl.png') left center no-repeat;
+} */
+.main .voteType .tit em,
+.main .voteLc .tit em,
+.main .voteRecord .tit em{
+    margin-left: 4px;
+    position: relative;
+    top: -3px;
+    font-family: "HiraginoSansGB-W3";
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0;
+}
+.main .voteType .voteList{
+    margin-top: 27px;
+    overflow: hidden
+}
+.main .voteType .voteList li{
+    float: left;
+    position: relative;
+    cursor: pointer;
+    margin-right: 22px;
+    width: 149px;
+    height: 108px;
+    border: 1px solid #D8D8D8;
+    border-radius: 2px;
+    box-sizing: border-box;
+
+}
+.main .voteType .voteList li div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.main .voteType .voteList li .hover{
+    background: rgba(255, 85, 46, 0.80);
+    filter:alpha(opacity=80);
+    font-family: HiraginoSansGB-W6;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 108px;
+    text-align: center;
+    display: none;
+}
+.main .voteType .voteList li:last-child{
+    margin-right: 0;
+}
+.main .voteType .voteList li span,
+.main .voteType .voteList li em{
+    display: block;
+    margin: 0 11px;
+    width: auto;
+    text-align: center;
+}
+.main .voteType .voteList li span {
+    margin-top: 22px;
+    font-family: "HiraginoSansGB-W3";
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+}
+.main .voteType .voteList li em {
+    margin-top: 12px;
+    font-family: HiraginoSansGB-W3;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+.main .voteType .mess{
+    margin-top: 20px;
+}
+.main .voteType .mess p {
+    font-family: HiraginoSansGB-W3;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+.main .voteType .mess p .icon_warm{
+    display: inline-block;
+    position: relative;
+    margin-right: 8px;
+    top: 2px;
+    width: 17px;
+    height: 17px;
+    /* background: url('//img.58cdn.com.cn/resource/xxzl/big_custom_ser/pc_center/icon_wram.png') left center no-repeat; */
+}
+.main .voteType .mess .smess{
+    margin-left: 25px;
+}
+.main .voteType .mess p a{
+    font-family: HiraginoSansGB-W3;
+    font-size: 14px;
+    color: #e4421a;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+.main .voteLc .lcMain,
+.main .voteLc .lcMain img{
+    width: 100%;
+    height: auto;
+}
+.main .voteLc .lcMain{
+    margin-top: 27px;
+}
+.main .voteRecord .recordCard{
+    margin-top: 26px;
+}
+.main .voteRecord ul.nav{
+    overflow: hidden;
+    border-bottom: 2px solid #e4421a;
+}
+.main .voteRecord ul.nav li{
+    float: left;
+    width: 112px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #FFEFE7;
+    font-family: HiraginoSansGB-W3;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.main .voteRecord ul.nav li.on{
+    background: #e4421a;
+    border-radius: 2px;
+    font-family: HiraginoSansGB-W3;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.main .voteRecord .recordList {
+    background: #FFFFFF;
+    border: 1px solid #E6EAEE;
+    border-radius: 2px;
+}
+.main .voteRecord ol.navTitle{
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    background: #F5F5F5;
+}
+.main .voteRecord ol.navTitle li {
+    display: inline-block;
+    width: 25%;
+    font-family: HiraginoSansGB-W3;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 0;
+    text-align: center;
+}
+.main .voteRecord .noVote{
+    padding: 48px 0;
+    display: none;
+}
+.main .voteRecord .votrList{
+    display: none;
+}
+.main .voteRecord .noVote .icon_no{
+    display: block;
+    margin: 0 auto;
+    width: 41px;
+    height: 48px;
+    /* background: url('//img.58cdn.com.cn/resource/xxzl/big_custom_ser/pc_center/icon_no.png') left center no-repeat; */
+}
+/* .mess_icon{
+    width: 17px;
+    height: 17px;
+    background-image: url(//img.58cdn.com.cn/resource/xxzl/big_custom_ser/pc_center/icon_wram.png);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    margin-right: 8px;
+    top: 2px;
+} */
+.main .voteRecord .noVote p{
+    margin-top: 13px;
+    font-family: HiraginoSansGB-W3;
+    font-size: 14px;
+    color: #CECECE;
+    letter-spacing: 0;
+    text-align: center;
+}
+.main .voteRecord .recordList .voteList div{
+    height: 56px;
+    line-height: 56px;
+    width: 100%;
+}
+.main .voteRecord .recordList .voteList div:nth-of-type(even){
+    background: #F5F5F5;
+}
+.main .voteRecord .recordList .voteList div span{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    font-family: HiraginoSansGB-W3;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+}
+.main .voteRecord .recordList .voteList div .btn_detail{
+    font-family: HiraginoSansGB-W3;
+    font-size: 14px;
+    color: #e4421a;
+    letter-spacing: 0;
+    cursor: pointer
+}
+.footer{
+    margin: 15px auto;
+}
+.footer p{
+    text-align: center;
+    font-size: 13px;
+    color: #666666;
+}
+.footer p span{
+    display: inline-table;
+    margin: 0 7px;
+    font-family: HiraginoSansGB-W3;
+    font-size: 13px;
+    color: #666666;
+    letter-spacing: 0;
+    text-align: right;
+}
+.navBar a{
+    text-decoration: none;
+    color: #666;
+}
