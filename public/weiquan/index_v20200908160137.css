@@ -11,7 +11,7 @@ body{
     width: 100%;
     height: 83px;
     line-height: 83px;
-    background-color: #02b3ff;
+    background-color: #f7a206;
 }
 .headerBar .headerWrap{
     margin: 0 auto;
@@ -152,7 +152,7 @@ body{
 .main .voteType .mess p a{
     font-family: HiraginoSansGB-W3;
     font-size: 14px;
-    color: #02b3ff;
+    color: #f7a206;
     letter-spacing: 0;
     line-height: 21px;
 }
@@ -169,7 +169,7 @@ body{
 }
 .main .voteRecord ul.nav{
     overflow: hidden;
-    border-bottom: 2px solid #02b3ff;
+    border-bottom: 2px solid #f7a206;
 }
 .main .voteRecord ul.nav li{
     float: left;
@@ -186,7 +186,7 @@ body{
     cursor: pointer;
 }
 .main .voteRecord ul.nav li.on{
-    background: #02b3ff;
+    background: #f7a206;
     border-radius: 2px;
     font-family: HiraginoSansGB-W3;
     font-size: 16px;
@@ -266,7 +266,7 @@ body{
 .main .voteRecord .recordList .voteList div .btn_detail{
     font-family: HiraginoSansGB-W3;
     font-size: 14px;
-    color: #02b3ff;
+    color: #f7a206;
     letter-spacing: 0;
     cursor: pointer
 }

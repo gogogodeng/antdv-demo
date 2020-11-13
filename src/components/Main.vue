@@ -1,10 +1,11 @@
 <template>
   <div class="main">
-    <template v-for="t in types" :key="t">
-      <Title :title="t"></Title>
-      <CardList :list="list[t]" :name="t"></CardList>
-      <hr>
-    </template>
+    <div class="d-flex j-sb a-center flex-wrap" style="white-space: nowrap;">
+      <div style="width: 49%;" v-for="t in types" :key="t">
+        <Title :title="t"></Title>
+        <CardList :list="list[t]" :name="t"></CardList>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -29,7 +30,7 @@ export default {
 
 <style lang="less" scoped>
   .main {
-    width: 80%;
+    width: 100%;
     margin: 20px auto;
   }
 </style>

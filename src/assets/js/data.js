@@ -1,15 +1,14 @@
 const data = {
   webinfo: {
-    webtitle: '乐逗玩科技',
-    weblogo: '',
-    webname: '武穴市乐逗玩科技有限公司',
-    beian: '鄂ICP备2020017954号-1',
+    webtitle: '羊楼洞',
+    weblogo: '羊楼洞科技',
+    webname: '羊楼洞无忧（湖北）科技有限公司',
+    beian: '无忧茶坊 | 鄂ICP备20013470号',
     beianlink: '',
-    address: '湖北省黄冈市武穴市大法寺镇白龙潭村上坊垸1号'
+    address: '湖北省咸宁市赤壁市茶庵岭镇八王庙村107国道（羊楼洞茶文化生态产业园）'
   },
   swiper: [
-    'images/timg.jpg',
-    'images/timg2.jpg'
+    'images/timg.jpg'
   ],
   types: [
     '手机转让',
@@ -18,7 +17,239 @@ const data = {
     '笔记本'
   ],
   list: {
+    '最新': [
+      {
+        "isnew": '99新',
+        "brand": '小米',
+        "img": 'images/type5/1.jpg',
+        "title": "华为mate40Pro 8+128 秋日胡杨",
+        "address": "洪山 - 新南湖",
+        "price": "6999",
+        "desc": "2019年12月京东买的小辣椒新手机。4g，移动联通，2g内存+16g...(2小时)"
+      },
+      {
+      	"title": "智云稳定器vlog摄影神器可伸缩延长自拍手持稳定器",
+      	"address": "汉阳黄金口",
+      	"price": "269",
+      	"desc": "京东购买，全套带三脚架，实在没时间用，",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type3/11.jpg"
+      },
+      {
+      	"title": "个人自用D810+27-702.8G",
+      	"address": "江岸大智路",
+      	"price": "10800",
+      	"desc": "业余爱好者，平时出门玩拍拍娃，快门数大概小几千这样子，使用非常爱惜，外...",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type3/12.jpg"
+      },
+      {
+      	"title": "9成新VIVO×9s",
+      	"address": "洪山关山",
+      	"price": "900",
+      	"desc": "VIVO×9s 官方正版，9成新，手机被我保护的很好，无任何碎屏，划痕...",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/2.jpg"
+      },
+      {
+      	"title": "9成新OPPO R11低价出",
+      	"address": "青山建设二路",
+      	"price": "400",
+      	"desc": "因换新手机低价出，手机9成新，无摔无修，4+64G 购机盒子发票充电器...",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/3.jpg"
+      },
+      {"isnew": '99新',
+        "brand": '',
+        "img": 'images/type2/2.jpg',
+      	"title": "出售2手电脑",
+      	"address": "新洲阳逻开发区",
+      	"price": "1100",
+      	"desc": "电脑保存很好，配置见图表1。(10-19)"
+      },
+      {"isnew": '99新',
+        "brand": '',
+        "img": 'images/type2/3.jpg',
+      	"title": "GTX1070台式一套",
+      	"address": "武昌中南路",
+      	"price": "5200",
+      	"desc": "转一套：键鼠 音响 主机 屏幕 不拆(10-19)"
+      },
+      {
+      	"title": "《学生自用》i5联想8G256G固态二手笔记本电脑",
+      	"address": "武汉",
+      	"price": "1580",
+      	"desc": "电脑是大学时候在联想专卖店购买的用一年多，用的很爱惜，没有坏过也没有修...",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type4/4.jpg"
+      },
+      {
+      	"title": "出台高配的苹果笔记本电脑95新",
+      	"address": "东西湖常青花园",
+      	"price": "2940",
+      	"desc": "自用一台13.3寸苹果笔记本电脑 电脑流畅可适合用来办公 追剧 制图 ...",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type4/5.jpg"
+      },
+      {
+      	"title": "vivo s1pro",
+      	"address": "汉阳五里墩",
+      	"price": "850",
+      	"desc": "宝贝自用差不多9个月，老公发神经又送了个vivo手机结果一台好端端的手...",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/4.jpg"
+      },
+      {
+      	"title": "苹果6s plus 32G",
+      	"address": "江汉万松园",
+      	"price": "768",
+      	"desc": "苹果6s plus 32G 无拆无修，九新正常使用痕迹 盒子发票都在，...",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/5.jpg"
+      },
+      {
+      	"title": "松拓运动手表3p蓝宝石",
+      	"address": "东西湖吴家山",
+      	"price": "955",
+      	"desc": "手表带了半年然后一直放在家里保存的很好，喜欢的朋友可以留意",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/9.jpg"
+      },
+      {
+      	"title": "二手苹果7p，1500低价出售，个人自用",
+      	"address": "武昌徐东",
+      	"price": "1500",
+      	"desc": "我自己买的手机用了才半年，后来因为屏幕被我摔坏了，一直放着了，然后现在...",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/10.jpg"
+      },
+      {
+      	"title": "批发二手苹果手机提供苹果服务",
+      	"address": "洪山白沙洲",
+      	"price": "面议",
+      	"desc": "一台也是批发价格，每天都有特价机。抢到就是赚到，赶快联系我们吧！空间每...",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/11.jpg"
+      },
+      {
+      	"title": "iPhonex",
+      	"address": "汉阳王家湾",
+      	"price": "1800",
+      	"desc": "iPhonex 64G 有锁银色已雪解插卡即用 电池电池效率80，原装...",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/12.jpg"
+      },
+      {
+      	"title": "高颜值崭新的华为P8",
+      	"address": "武昌中南路",
+      	"price": "260",
+      	"desc": "华为P8，买了有几年了，但没怎么用过，外观跟全新的一样，也没有维修过，...",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/13.jpg"
+      },
+      {
+      	"title": "自己用手机",
+      	"address": "东西湖吴家山",
+      	"price": "4700",
+      	"desc": "自己用的手机，无毛病，有意者联系，",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/14.jpg"
+      },
+      {
+      	"title": "苹果se.十月入手，999999新，看好私聊",
+      	"address": "洪山珞狮南路",
+      	"price": "3000",
+      	"desc": "各种包装齐全，不是贩子，个人使用，可以看图，不怕验机，买的就是正品",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/15.jpg"
+      },
+      {
+      	"title": "公司生日礼物，全新，黑色，就拆开了一次，冲过一次电",
+      	"address": "东西湖吴家山",
+      	"price": "1800",
+      	"desc": "公司生日礼物，全新，黑色，就拆开了一次，冲过一次电，没有使用，",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/16.jpg"
+      },
+      {
+      	"title": "华为荣耀20，8g运行，128g，99成新",
+      	"address": "武昌丁字桥",
+      	"price": "1200",
+      	"desc": "去年买的手机，平常保护特别小心，没有任何磕碰",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/17.jpg"
+      },
+      {
+      	"title": "荣耀20，8g，128g，99新",
+      	"address": "洪山街道口",
+      	"price": "1100",
+      	"desc": "个人使用手机跟全新差不多，没磕碰，去年六月份买的手机，便宜卖",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/18.jpg"
+      },
+      {
+      	"title": "iPhone12蓝色，64g，国行京东全新未拆封",
+      	"address": "洪山关山",
+      	"price": "5900",
+      	"desc": "京东618活动iPhone11保值换购的iPhone12，国行全新未拆...",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/19.jpg"
+      },
+      {
+      	"title": "华为荣耀x10",
+      	"address": "洪山关山",
+      	"price": "450",
+      	"desc": "8加128g 大屏幕 适合大型游戏 支持5g 麒麟820双模5g处理器...",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/20.jpg"
+      },
+      {
+      	"title": "因老婆给我抢到了苹果12.忍痛转让，速度！",
+      	"address": "洪山欢乐谷",
+      	"price": "2600",
+      	"desc": "小米k30至尊纪念版，速度超快，速度！崭新机，入手不到半月，速度超快，...",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/21.jpg"
+      },
+    ],
     '手机转让': [
+      {"isnew": '99新',
+        "brand": '苹果',
+        "img": 'images/type1/4.jpg',
+      	"title": "热卖正品二手98新苹果手机 带发票货到付 武汉",
+      	"address": "武汉",
+      	"price": "面议",
+      	"desc": "原装二手正品机子，并不是全新机，机子无暗病，无进水，无拆无修，无锁无I...(10-18)"
+      },
+      {"isnew": '99新',
+        "brand": '小米',
+        "img": 'images/type1/5.jpg',
+      	"title": "优品",
+      	"address": "武汉周边其他",
+      	"price": "950",
+      	"desc": "几乎全新 使用时间不超过半年 颜色是银翼白炫彩 因本人缺钱 所以要卖 ...(10-17)"
+      },
       {
         "isnew": '99新',
         "brand": '小米',
@@ -44,22 +275,6 @@ const data = {
       	"address": "硚口古田",
       	"price": "400",
       	"desc": "低价出售只用了几天的金立f7手机128g的，速度非常快，由于买给母亲不...(10-19)"
-      },
-      {"isnew": '99新',
-        "brand": '苹果',
-        "img": 'images/type1/4.jpg',
-      	"title": "热卖正品二手98新苹果手机 带发票货到付 武汉",
-      	"address": "武汉",
-      	"price": "面议",
-      	"desc": "原装二手正品机子，并不是全新机，机子无暗病，无进水，无拆无修，无锁无I...(10-18)"
-      },
-      {"isnew": '99新',
-        "brand": '小米',
-        "img": 'images/type1/5.jpg',
-      	"title": "优品",
-      	"address": "武汉周边其他",
-      	"price": "950",
-      	"desc": "几乎全新 使用时间不超过半年 颜色是银翼白炫彩 因本人缺钱 所以要卖 ...(10-17)"
       },
       {"isnew": '99新',
         "brand": '苹果',
@@ -136,6 +351,24 @@ const data = {
     ],
     '数码相机': [
       {
+      	"title": "尼康原装快门线，手柄甩卖",
+      	"address": "硚口硚口周边",
+      	"price": "800",
+      	"desc": "尼康原装快门线，手柄出售，基本上没有使用。现低价出售",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type3/4.jpg"
+      },
+      {
+      	"title": "自用索尼6300转让",
+      	"address": "江汉唐家墩",
+      	"price": "6200",
+      	"desc": "2个镜头 两个包 2个电池",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type3/5.jpg"
+      },
+      {
       	"title": "卖索尼A7m2相机 中高端相机 人物 风景摄像",
       	"address": "汉阳王家湾",
       	"price": "",
@@ -161,24 +394,6 @@ const data = {
       	"isnew": "9新",
       	"brand": "",
       	"img": "images/type3/3.jpg"
-      },
-      {
-      	"title": "尼康原装快门线，手柄甩卖",
-      	"address": "硚口硚口周边",
-      	"price": "800",
-      	"desc": "尼康原装快门线，手柄出售，基本上没有使用。现低价出售",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type3/4.jpg"
-      },
-      {
-      	"title": "自用索尼6300转让",
-      	"address": "江汉唐家墩",
-      	"price": "6200",
-      	"desc": "2个镜头 两个包 2个电池",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type3/5.jpg"
       },
       {
       	"title": "腾龙2470尼康口镜头",
@@ -238,6 +453,22 @@ const data = {
     '台式电脑': [
       {"isnew": '99新',
         "brand": '',
+        "img": 'images/type2/6.jpg',
+      	"title": "9成新台式电脑转让",
+      	"address": "蔡甸蔡甸周边",
+      	"price": "2100",
+      	"desc": "因工作原因要转让电脑，电脑9成新，游戏办公都适合，看上的可以验货面付，...(10-18)"
+      },
+      {"isnew": '99新',
+        "brand": '',
+        "img": 'images/type2/7.jpg',
+      	"title": "i9九代9900全新网吧 正品行货 绝无虚假",
+      	"address": "武汉",
+      	"price": "1450",
+      	"desc": "英特尔i7处理器，GTX华硕1060独立显卡，华硕主板，8G内存，希捷...(10-18)"
+      },
+      {"isnew": '99新',
+        "brand": '',
         "img": 'images/type2/1.jpg',
       	"title": "i9英特尔9900全新网咖 高端机型，甩卖",
       	"address": "武汉",
@@ -275,22 +506,6 @@ const data = {
       	"address": "沌口开发区郭徐岭广场",
       	"price": "1000",
       	"desc": "显示器是22寸的 有 鼠标键盘(10-18)"
-      },
-      {"isnew": '99新',
-        "brand": '',
-        "img": 'images/type2/6.jpg',
-      	"title": "9成新台式电脑转让",
-      	"address": "蔡甸蔡甸周边",
-      	"price": "2100",
-      	"desc": "因工作原因要转让电脑，电脑9成新，游戏办公都适合，看上的可以验货面付，...(10-18)"
-      },
-      {"isnew": '99新',
-        "brand": '',
-        "img": 'images/type2/7.jpg',
-      	"title": "i9九代9900全新网吧 正品行货 绝无虚假",
-      	"address": "武汉",
-      	"price": "1450",
-      	"desc": "英特尔i7处理器，GTX华硕1060独立显卡，华硕主板，8G内存，希捷...(10-18)"
       },
       {"isnew": '99新',
         "brand": '',

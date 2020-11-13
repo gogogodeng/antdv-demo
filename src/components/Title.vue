@@ -8,10 +8,10 @@
           </div>
         </div>
       </div>
-      <div class="more bg-light font text-muted click">
+      <!-- <div class="more bg-light font text-muted click">
         <div class="d-inline-block" @click="link">查看更多</div>
         <RightOutlined />
-      </div>
+      </div> -->
     </div>
     <!-- <hr> -->
   </div>
