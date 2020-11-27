@@ -8,7 +8,7 @@
         <span class="click hover" @click="link">{{item.title}}</span>
       </div>
       <div>{{item.desc}}</div>
-      <div>新旧程度：{{item.isnew}}</div>
+      <div>{{item.isnew}}</div>
       <div>地区：{{item.address}}</div>
     </div>
     <div class="flex-1 text-right text-danger font-lgm font-weight p-2">

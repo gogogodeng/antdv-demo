@@ -9,13 +9,13 @@
         </div>
         <div class="flex-1 ml-2 font-mdg text-left">
           <div class="mb-2" v-if="detail.brand">
-            品牌：{{detail.brand}}
+            {{detail.brand}}
           </div>
           <div class="mb-2 text-danger">
             价格：{{detail.price}}
           </div>
           <div class="mb-2">
-            新旧程度：{{detail.isnew}}
+            {{detail.isnew}}
           </div>
           <div class="mb-2">
             地址：{{detail.address}}

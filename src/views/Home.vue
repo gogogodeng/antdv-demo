@@ -50,7 +50,7 @@ export default {
   computed:{
     first() {
       return this.types.filter(f=>{
-        return f == '手机转让' || f == '最新'
+        return f == '房屋信息' || f == '最新'
       })
     },
     second() {
