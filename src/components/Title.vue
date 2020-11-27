@@ -1,17 +1,24 @@
 <template>
   <div class="my-2">
-    <div class="title d-flex j-sb a-center">
-      <div class="subtitle border-bottom border-primary position-relative">
-        <div class="position-absolute" style="white-space: nowrap;">
+    <div class="title d-flex j-sb a-start">
+      <div class="">
+        <div class="" style="white-space: nowrap;">
           <div class="text-left">
             {{title}}
           </div>
         </div>
       </div>
-      <!-- <div class="more bg-light font text-muted click">
-        <div class="d-inline-block" @click="link">查看更多</div>
-        <RightOutlined />
+      <!-- <div class="subtitle border-bottom border-primary position-relative">
+        <div class="position-absolute" style="white-space: nowrap;">
+          <div class="text-left">
+            {{title}}
+          </div>
+        </div>
       </div> -->
+      <div class="more bg-light font text-muted click" @click="link">
+        <div class="d-inline-block"></div>
+        <RightOutlined />
+      </div>
     </div>
     <!-- <hr> -->
   </div>
@@ -53,7 +60,7 @@ export default {
     }
   }
   .more {
-    padding: 3px 20px;
+    padding: 0px 20px;
   }
   hr {
     height: 0px;

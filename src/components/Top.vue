@@ -1,10 +1,10 @@
 <template>
-  <div class="top bg-primary text-white">
+  <div class="top bg-lightmuted">
     <div class="d-flex j-sb w-100">
       <div>欢迎访问</div>
       <div class="d-flex j-end a-center">
-        <router-link to="/register"> <span class="text-white">注册</span> </router-link> &nbsp;&nbsp;&nbsp;&nbsp;
-        <router-link to="/login"> <span class="text-white">登录</span> </router-link>
+        <router-link to="/register"> <span class="">注册</span> </router-link> &nbsp;&nbsp;&nbsp;&nbsp;
+        <router-link to="/login"> <span class="">登录</span> </router-link>
       </div>
     </div>
   </div>

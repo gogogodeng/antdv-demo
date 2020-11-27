@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="d-flex j-sb a-center flex-wrap" style="white-space: nowrap;">
-      <div style="width: 49%;" v-for="t in types" :key="t">
+      <div style="width: 33%;" v-for="t in showtypes" :key="t">
         <Title :title="t"></Title>
         <CardList :list="list[t]" :name="t"></CardList>
       </div>
@@ -19,6 +19,7 @@ export default {
     Title,
     CardList
   },
+  props: ['showtypes'],
   data () {
     return {
       types: data.types,
@@ -31,6 +32,6 @@ export default {
 <style lang="less" scoped>
   .main {
     width: 100%;
-    margin: 20px auto;
+    margin: 0px auto;
   }
 </style>

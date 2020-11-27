@@ -32,7 +32,7 @@ export default {
     },
     max: {
       type: Number,
-      default: 8
+      default: 7
     },
     side: {
       type: String,

@@ -1,16 +1,18 @@
 const data = {
   webinfo: {
-    webtitle: '羊楼洞无忧',
-    weblogo: '羊楼洞无忧',
-    webname: '羊楼洞无忧（湖北）科技有限公司 | 客服电话 0715-5352477',
-    beian: '无忧茶坊 | 鄂ICP备20013470号',
+    webtitle: '武汉方兔网络科技有限公司',
+    weblogo: '武汉方兔网络科技',
+    webname: '武汉方兔网络科技有限公司 | 联系方式：15827481881',
+    beian: '鄂ICP备18028038号-4',
     beianlink: '',
-    address: '湖北省咸宁市赤壁市茶庵岭镇八王庙村107国道（羊楼洞茶文化生态产业园）'
+    address: '武昌区和平大道750号绿地国际金融城A01-1地块一期第2、3、4幢3号楼14层3号房-2'
   },
   swiper: [
-    'images/timg.jpg'
+		'images/swiper1.jpg',
+		'images/swiper2.jpg'
   ],
   types: [
+		'最新',
     '手机转让',
     '数码相机',
     '台式电脑',

@@ -26,7 +26,7 @@ export default {
 <style lang="less" scoped>
   .ant-carousel ::v-deep(.slick-slide) {
     text-align: center;
-    height: 300px;
+    height: 290px;
     background: #364d79;
     overflow: hidden;
   }
