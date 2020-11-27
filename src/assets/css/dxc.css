@@ -5,8 +5,8 @@ image{will-change: transform}
 .scroll-row-item{ display: inline-block; }
 
 body{
-	--primary:#0697f7;
-	--secondary: #67a1ec;
+	--primary:#12648a;
+	--secondary: #0f6ebd;
 	--success: #28a745;
 	--danger: #dc3545;
 	--warning: #ff9c07;
