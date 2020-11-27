@@ -32,7 +32,9 @@ export default {
   },
   data () {
     return {
-      types: data.types
+      types: data.types.filter((f,i)=>{
+        return i < 6
+      })
     }
   }
 }

@@ -55,7 +55,7 @@ export default {
     },
     second() {
       return this.types.filter(f=>{
-        return f == '台式电脑' || f == '笔记本' || f == '数码相机'
+        return f == '台式电脑' || f == '二手汽车' || f == '数码相机'
       })
     }
   }
