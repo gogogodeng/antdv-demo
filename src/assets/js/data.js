@@ -15,8 +15,8 @@ const data = {
 		'最新',
 		'房屋信息',
 		'二手汽车',
-    '数码相机',
-		'台式电脑',
+    '二手相机',
+		'二手电脑',
 		'手机转让',
 		'笔记本',
 		'电动车'
@@ -42,218 +42,49 @@ const data = {
       	"img": "images/type6/6.jpg"
       },
       {
-        "isnew": '99新',
-        "brand": '小米',
-        "img": 'images/type5/1.jpg',
-        "title": "华为mate40Pro 8+128 秋日胡杨",
-        "address": "洪山 - 新南湖",
-        "price": "6999",
-        "desc": "2019年12月京东买的小辣椒新手机。4g，移动联通，2g内存+16g...(2小时)"
-      },
-      {
-      	"title": "智云稳定器vlog摄影神器可伸缩延长自拍手持稳定器",
-      	"address": "汉阳黄金口",
-      	"price": "269",
-      	"desc": "京东购买，全套带三脚架，实在没时间用，",
+      	"title": "佳能1100D转让",
+      	"address": "硚口硚口周边",
+      	"price": "800",
+      	"desc": "原装快门线，手柄出售，基本上没有使用。现低价出售",
       	"isnew": "9新",
       	"brand": "",
-      	"img": "images/type3/11.jpg"
+      	"img": "images/type3/4.jpg"
       },
       {
-      	"title": "个人自用D810+27-702.8G",
-      	"address": "江岸大智路",
-      	"price": "10800",
-      	"desc": "业余爱好者，平时出门玩拍拍娃，快门数大概小几千这样子，使用非常爱惜，外...",
+      	"title": "尼康18-105镜头",
+      	"address": "江汉唐家墩",
+      	"price": "6200",
+      	"desc": "2个镜头 两个包 2个电池",
       	"isnew": "9新",
       	"brand": "",
-      	"img": "images/type3/12.jpg"
-      },
-      {
-      	"title": "9成新VIVO×9s",
-      	"address": "洪山关山",
-      	"price": "900",
-      	"desc": "VIVO×9s 官方正版，9成新，手机被我保护的很好，无任何碎屏，划痕...",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/2.jpg"
-      },
-      {
-      	"title": "9成新OPPO R11低价出",
-      	"address": "青山建设二路",
-      	"price": "400",
-      	"desc": "因换新手机低价出，手机9成新，无摔无修，4+64G 购机盒子发票充电器...",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/3.jpg"
-      },
-      {"isnew": '99新',
-        "brand": '',
-        "img": 'images/type2/2.jpg',
-      	"title": "出售2手电脑",
-      	"address": "新洲阳逻开发区",
-      	"price": "1100",
-      	"desc": "电脑保存很好，配置见图表1。"
-      },
-      {"isnew": '99新',
-        "brand": '',
-        "img": 'images/type2/3.jpg',
-      	"title": "GTX1070台式一套",
-      	"address": "武昌中南路",
-      	"price": "5200",
-      	"desc": "转一套：键鼠 音响 主机 屏幕 不拆"
-      },
-      {
-      	"title": "《学生自用》i5联想8G256G固态二手笔记本电脑",
+      	"img": "images/type3/5.jpg"
+			},
+			{
+      	"title": "奔驰 E级(进口) 2010款 E 260 CGI Coupe",
       	"address": "武汉",
-      	"price": "1580",
-      	"desc": "电脑是大学时候在联想专卖店购买的用一年多，用的很爱惜，没有坏过也没有修...",
-      	"isnew": "9新",
+      	"price": "13.78万",
+      	"desc": "平时就是自己上下班代步 公里数少 车况精品 无事故 五千公里保养一次 都在途虎做的保养 内饰外观整洁 随时可以看车",
+      	"isnew": "10万公里",
       	"brand": "",
-      	"img": "images/type4/4.jpg"
+      	"img": "images/type8/1.jpg"
       },
       {
-      	"title": "出台高配的苹果笔记本电脑95新",
-      	"address": "东西湖常青花园",
-      	"price": "2940",
-      	"desc": "自用一台13.3寸苹果笔记本电脑 电脑流畅可适合用来办公 追剧 制图 ...",
-      	"isnew": "9新",
+      	"title": "宝马 X3 2012款 xDrive20i 豪华型",
+      	"address": "东西湖将军路",
+      	"price": "11.98万",
+      	"desc": "非诚勿扰。欢迎来电咨询",
+      	"isnew": "9万公里",
       	"brand": "",
-      	"img": "images/type4/5.jpg"
+      	"img": "images/type8/2.jpg"
       },
       {
-      	"title": "vivo s1pro",
-      	"address": "汉阳五里墩",
-      	"price": "850",
-      	"desc": "宝贝自用差不多9个月，老公发神经又送了个vivo手机结果一台好端端的手...",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/4.jpg"
-      },
-      {
-      	"title": "苹果6s plus 32G",
-      	"address": "江汉万松园",
-      	"price": "768",
-      	"desc": "苹果6s plus 32G 无拆无修，九新正常使用痕迹 盒子发票都在，...",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/5.jpg"
-      },
-      {
-      	"title": "松拓运动手表3p蓝宝石",
-      	"address": "东西湖吴家山",
-      	"price": "955",
-      	"desc": "手表带了半年然后一直放在家里保存的很好，喜欢的朋友可以留意",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/9.jpg"
-      },
-      {
-      	"title": "二手苹果7p，1500低价出售，个人自用",
-      	"address": "武昌徐东",
-      	"price": "1500",
-      	"desc": "我自己买的手机用了才半年，后来因为屏幕被我摔坏了，一直放着了，然后现在...",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/10.jpg"
-      },
-      {
-      	"title": "批发二手苹果手机提供苹果服务",
-      	"address": "洪山白沙洲",
+      	"title": "奥迪 Q7 2006款 3.6 FSI quattro 基本型",
+      	"address": "江岸二七路",
       	"price": "面议",
-      	"desc": "一台也是批发价格，每天都有特价机。抢到就是赚到，赶快联系我们吧！空间每...",
-      	"isnew": "9新",
+      	"desc": "同行勿扰，精品私家车，本车车况优秀价格美丽，车辆内电子器件使用良好，车内静态动态设备完善，路感清晰，操控精准，本车省油保值.",
+      	"isnew": "12万公里",
       	"brand": "",
-      	"img": "images/type5/11.jpg"
-      },
-      {
-      	"title": "iPhonex",
-      	"address": "汉阳王家湾",
-      	"price": "1800",
-      	"desc": "iPhonex 64G 有锁银色已雪解插卡即用 电池电池效率80，原装...",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/12.jpg"
-      },
-      {
-      	"title": "高颜值崭新的华为P8",
-      	"address": "武昌中南路",
-      	"price": "260",
-      	"desc": "华为P8，买了有几年了，但没怎么用过，外观跟全新的一样，也没有维修过，...",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/13.jpg"
-      },
-      {
-      	"title": "自己用手机",
-      	"address": "东西湖吴家山",
-      	"price": "4700",
-      	"desc": "自己用的手机，无毛病，有意者联系，",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/14.jpg"
-      },
-      {
-      	"title": "苹果se.十月入手，999999新，看好私聊",
-      	"address": "洪山珞狮南路",
-      	"price": "3000",
-      	"desc": "各种包装齐全，不是贩子，个人使用，可以看图，不怕验机，买的就是正品",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/15.jpg"
-      },
-      {
-      	"title": "公司生日礼物，全新，黑色，就拆开了一次，冲过一次电",
-      	"address": "东西湖吴家山",
-      	"price": "1800",
-      	"desc": "公司生日礼物，全新，黑色，就拆开了一次，冲过一次电，没有使用，",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/16.jpg"
-      },
-      {
-      	"title": "华为荣耀20，8g运行，128g，99成新",
-      	"address": "武昌丁字桥",
-      	"price": "1200",
-      	"desc": "去年买的手机，平常保护特别小心，没有任何磕碰",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/17.jpg"
-      },
-      {
-      	"title": "荣耀20，8g，128g，99新",
-      	"address": "洪山街道口",
-      	"price": "1100",
-      	"desc": "个人使用手机跟全新差不多，没磕碰，去年六月份买的手机，便宜卖",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/18.jpg"
-      },
-      {
-      	"title": "iPhone12蓝色，64g，国行京东全新未拆封",
-      	"address": "洪山关山",
-      	"price": "5900",
-      	"desc": "京东618活动iPhone11保值换购的iPhone12，国行全新未拆...",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/19.jpg"
-      },
-      {
-      	"title": "华为荣耀x10",
-      	"address": "洪山关山",
-      	"price": "450",
-      	"desc": "8加128g 大屏幕 适合大型游戏 支持5g 麒麟820双模5g处理器...",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/20.jpg"
-      },
-      {
-      	"title": "因老婆给我抢到了苹果12.忍痛转让，速度！",
-      	"address": "洪山欢乐谷",
-      	"price": "2600",
-      	"desc": "小米k30至尊纪念版，速度超快，速度！崭新机，入手不到半月，速度超快，...",
-      	"isnew": "9新",
-      	"brand": "",
-      	"img": "images/type5/21.jpg"
+      	"img": "images/type8/3.jpg"
       },
     ],
     '手机转让': [
@@ -372,18 +203,18 @@ const data = {
       	"desc": "新买不到20天 亏本处理(10-15)"
       },
     ],
-    '数码相机': [
+    '二手相机': [
       {
-      	"title": "尼康原装快门线，手柄甩卖",
+      	"title": "佳能1100D转让",
       	"address": "硚口硚口周边",
       	"price": "800",
-      	"desc": "尼康原装快门线，手柄出售，基本上没有使用。现低价出售",
+      	"desc": "原装快门线，手柄出售，基本上没有使用。现低价出售",
       	"isnew": "9新",
       	"brand": "",
       	"img": "images/type3/4.jpg"
       },
       {
-      	"title": "自用索尼6300转让",
+      	"title": "尼康18-105镜头",
       	"address": "江汉唐家墩",
       	"price": "6200",
       	"desc": "2个镜头 两个包 2个电池",
@@ -401,7 +232,7 @@ const data = {
       	"img": "images/type3/1.jpg"
       },
       {
-      	"title": "富士A-10",
+      	"title": "出闲置佳能700D 18-55单反相机全套带镜头",
       	"address": "黄陂武湖",
       	"price": "1120",
       	"desc": "有明显使用痕迹，但不影响使用。",
@@ -473,27 +304,11 @@ const data = {
       	"img": "images/type3/12.jpg"
       },
     ],
-    '台式电脑': [
-      {"isnew": '99新',
-        "brand": '',
-        "img": 'images/type2/6.jpg',
-      	"title": "9成新台式电脑转让",
-      	"address": "蔡甸蔡甸周边",
-      	"price": "2100",
-      	"desc": "因工作原因要转让电脑，电脑9成新，游戏办公都适合，看上的可以验货面付，..."
-      },
-      {"isnew": '99新',
-        "brand": '',
-        "img": 'images/type2/7.jpg',
-      	"title": "i9九代9900全新网吧 正品行货 绝无虚假",
-      	"address": "武汉",
-      	"price": "1450",
-      	"desc": "英特尔i7处理器，GTX华硕1060独立显卡，华硕主板，8G内存，希捷..."
-      },
+    '二手电脑': [
       {"isnew": '99新',
         "brand": '',
         "img": 'images/type2/1.jpg',
-      	"title": "i9英特尔9900全新网咖 高端机型，甩卖",
+      	"title": "苹果款22寸超薄一体机电脑适合办公设计家用",
       	"address": "武汉",
       	"price": "1499",
       	"desc": "i7英特尔原装--华硕gtx系列1060或1080独立显卡，8g内存,..."
@@ -501,7 +316,7 @@ const data = {
       {"isnew": '99新',
         "brand": '',
         "img": 'images/type2/2.jpg',
-      	"title": "出售2手电脑",
+      	"title": "网咖吃鸡游戏电脑秒杀CF LOL DNF等游戏低价",
       	"address": "新洲阳逻开发区",
       	"price": "1100",
       	"desc": "电脑保存很好，配置见图表1。"
@@ -509,7 +324,7 @@ const data = {
       {"isnew": '99新',
         "brand": '',
         "img": 'images/type2/3.jpg',
-      	"title": "GTX1070台式一套",
+      	"title": "i7十代10700全新网吧2020款的新机型",
       	"address": "武昌中南路",
       	"price": "5200",
       	"desc": "转一套：键鼠 音响 主机 屏幕 不拆"
@@ -529,7 +344,23 @@ const data = {
       	"address": "沌口开发区郭徐岭广场",
       	"price": "1000",
       	"desc": "显示器是22寸的 有 鼠标键盘"
-      },
+			},
+			{"isnew": '99新',
+				"brand": '',
+				"img": 'images/type2/6.jpg',
+				"title": "i9英特尔9900全新网咖 高端机型，甩卖",
+				"address": "蔡甸蔡甸周边",
+				"price": "850",
+				"desc": "因工作原因要转让电脑，电脑9成新，游戏办公都适合，看上的可以验货面付，..."
+			},
+			{"isnew": '99新',
+				"brand": '',
+				"img": 'images/type2/7.jpg',
+				"title": "九五新！二手台式办公电脑 主机 商务电脑 亏本处理",
+				"address": "武汉",
+				"price": "1450",
+				"desc": "英特尔i7处理器，GTX华硕1060独立显卡，华硕主板，8G内存，希捷..."
+			},
       {"isnew": '99新',
         "brand": '',
         "img": 'images/type2/8.jpg',
@@ -636,7 +467,7 @@ const data = {
       	"title": "融侨悦府 两室 精装 朝南 拎包入住",
       	"address": "友谊大道",
       	"price": "180万",
-      	"desc": "1.户型方正，通透敞亮，小区性价比非常高的好房。 2.小区物业管理严格服务到家让你生活放心。 3.小区绿化面积大，绿树成荫， 4.小区人文素质高，地段，社区交通便利，.安静舒适，让你在这享受品质生活。",
+      	"desc": "楼层好。高度够，日照时间充足。又不至于太高，万一电梯故障也爬得上去。",
       	"isnew": "2室2厅1卫",
       	"brand": "22103 元/平",
       	"img": "images/type6/2.jpg"
@@ -654,7 +485,7 @@ const data = {
       	"title": "南北通透 蓝光COCO时代 电梯房 160万",
       	"address": "江汉杨汊湖",
       	"price": "160万",
-      	"desc": "1.户型方正，通透敞亮，小区性价比非常高的好房。 2.小区物业管理严格服务到家让你生活放心。 3.小区绿化面积大，绿树成荫， 4.小区人文素质高，地段，社区交通便利，.安静舒适，让你在这享受品质生活。",
+      	"desc": "次新房。说是二手房，其实一天没住过。跟新房区别是：交房后做过活性炭除甲醛。",
       	"isnew": "3室1厅1卫",
       	"brand": "18687 元/平",
       	"img": "images/type6/4.jpg"
@@ -663,7 +494,7 @@ const data = {
       	"title": "光谷火车站总部国际旁，宇峰家园，满五 ，精装",
       	"address": "江汉杨汊湖",
       	"price": "134万",
-      	"desc": "1.户型方正，通透敞亮，小区性价比非常高的好房。 2.小区物业管理严格服务到家让你生活放心。 3.小区绿化面积大，绿树成荫， 4.小区人文素质高，地段，社区交通便利，.安静舒适，让你在这享受品质生活。",
+      	"desc": "户型介绍：房子为毛坯房 明厨明卫 采光好 户型房方正，阳台。视眼开阔，无遮挡。",
       	"isnew": "2室1厅1卫",
       	"brand": "14007 元/平",
       	"img": "images/type6/5.jpg"
@@ -781,29 +612,29 @@ const data = {
 		],
 		'二手汽车': [
 			{
-      	"title": "奔驰 A级 2019款 A级 改款 A 180 L",
+      	"title": "奔驰 E级(进口) 2010款 E 260 CGI Coupe",
       	"address": "武汉",
-      	"price": "面议",
+      	"price": "13.78万",
       	"desc": "平时就是自己上下班代步 公里数少 车况精品 无事故 五千公里保养一次 都在途虎做的保养 内饰外观整洁 随时可以看车",
-      	"isnew": "9新",
+      	"isnew": "10万公里",
       	"brand": "",
       	"img": "images/type8/1.jpg"
       },
       {
-      	"title": "宝马 X1 2012款 xDrive28i 领先型",
+      	"title": "宝马 X3 2012款 xDrive20i 豪华型",
       	"address": "东西湖将军路",
-      	"price": "面议",
+      	"price": "11.98万",
       	"desc": "非诚勿扰。欢迎来电咨询",
-      	"isnew": "9新",
+      	"isnew": "9万公里",
       	"brand": "",
       	"img": "images/type8/2.jpg"
       },
       {
-      	"title": "大众 迈腾 2017款 280TSI DSG 舒适型",
+      	"title": "奥迪 Q7 2006款 3.6 FSI quattro 基本型",
       	"address": "江岸二七路",
       	"price": "面议",
       	"desc": "同行勿扰，精品私家车，本车车况优秀价格美丽，车辆内电子器件使用良好，车内静态动态设备完善，路感清晰，操控精准，本车省油保值.",
-      	"isnew": "9新",
+      	"isnew": "12万公里",
       	"brand": "",
       	"img": "images/type8/3.jpg"
       },
@@ -812,7 +643,7 @@ const data = {
       	"address": "江岸后湖",
       	"price": "8万",
       	"desc": "价格可议！个人家用一手车，车况精品无事故泡水，支持任何第三方检测，原版无碰撞,发动机保养良好",
-      	"isnew": "9新",
+      	"isnew": "10万公里",
       	"brand": "",
       	"img": "images/type8/4.jpg"
       },
@@ -821,7 +652,7 @@ const data = {
       	"address": "江汉唐家墩",
       	"price": "6万",
       	"desc": "外观：漆面保养良好，车身结构无修复，无重大事故。 内饰：干净整洁。安全指示灯正常",
-      	"isnew": "9新",
+      	"isnew": "10万公里",
       	"brand": "",
       	"img": "images/type8/5.jpg"
       },
@@ -830,7 +661,7 @@ const data = {
       	"address": "武昌首义路",
       	"price": "10万",
       	"desc": "车子我本来是打算买来跑外卖的，但是结果不理想，不准备跑了，车子有证，可...",
-      	"isnew": "9新",
+      	"isnew": "10万公里",
       	"brand": "",
       	"img": "images/type8/6.jpg"
       },
@@ -839,7 +670,7 @@ const data = {
       	"address": "江夏金融港",
       	"price": "5万",
       	"desc": " 车况精品 无事故 五千公里保养一次 都在途虎做的保养 内饰外观整洁 随时可以看车",
-      	"isnew": "9新",
+      	"isnew": "10万公里",
       	"brand": "",
       	"img": "images/type8/7.jpg"
       },
@@ -848,7 +679,7 @@ const data = {
       	"address": "洪山光谷广场",
       	"price": "15万",
       	"desc": " 车况精品 无事故 五千公里保养一次 都在途虎做的保养 内饰外观整洁 随时可以看车.",
-      	"isnew": "9新",
+      	"isnew": "10万公里",
       	"brand": "",
       	"img": "images/type8/8.jpg"
       },
@@ -857,7 +688,7 @@ const data = {
       	"address": "汉阳王家湾",
       	"price": "6万",
       	"desc": " 车况精品 无事故 五千公里保养一次 都在途虎做的保养 内饰外观整洁 随时可以看车",
-      	"isnew": "9新",
+      	"isnew": "10万公里",
       	"brand": "",
       	"img": "images/type8/9.jpg"
       },
@@ -866,7 +697,7 @@ const data = {
       	"address": "江汉杨汊湖",
       	"price": "4万",
       	"desc": " 车况精品 无事故 五千公里保养一次 都在途虎做的保养 内饰外观整洁 随时可以看车",
-      	"isnew": "9新",
+      	"isnew": "10万公里",
       	"brand": "",
       	"img": "images/type8/10.jpg"
       },

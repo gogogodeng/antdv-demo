@@ -22,9 +22,10 @@
       </div>
     </div>
     <div class="d-flex j-sb a-start" style="width:80%;margin:20px auto 0 auto;">      
-      <div class="d-flex j-sb a-center flex-wrap" style="width:100%;white-space: nowrap;overflow:hidden;height:140px">
-        <div class="px-2" style="width: 20%;margin-bottom:10px" v-for="t in list['最新']" :key="t">
+      <div class="d-flex j-sb a-center flex-wrap" style="width:100%;white-space: nowrap;overflow:hidden;height:160px">
+        <div class="px-2 click" style="width: 20%;margin-bottom:10px" v-for="(t,index) in list['最新']" :key="t" @click="link(index)">
           <img :src="require('@/assets/'+t.img)" alt="" style="width:100%;height:130px">
+          <div style="width:100%;overflow:hidden;text-overflow: ellipsis;">{{t.title}}</div>
         </div>
       </div>
     </div>
@@ -55,8 +56,13 @@ export default {
     },
     second() {
       return this.types.filter(f=>{
-        return f == '台式电脑' || f == '二手汽车' || f == '数码相机'
+        return f == '二手电脑' || f == '二手汽车' || f == '二手相机'
       })
+    }
+  },
+  methods: {
+    link (index) {
+      this.$router.push('/detail?name=最新&index=' + index)
     }
   }
 }

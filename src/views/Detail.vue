@@ -12,7 +12,7 @@
             {{detail.brand}}
           </div>
           <div class="mb-2 text-danger">
-            价格：{{detail.price}}
+            价格：{{detail.price}} <span class="font">{{ detail.price !='面议'?'元':'' }}</span>
           </div>
           <div class="mb-2">
             {{detail.isnew}}
