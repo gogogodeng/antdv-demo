@@ -13,7 +13,7 @@
         </div>
       </div>
     </div>
-    <div class="d-flex j-sb a-start" style="width:80%;margin:auto;">      
+    <div class="d-flex j-sb a-start" style="width:80%;margin:auto;">
       <div class="d-flex j-sb a-center flex-wrap" style="width:100%;white-space: nowrap;">
         <div class="border-default rounded px-2 pb-3 bg-white" style="width: 32.8%;" v-for="t in second" :key="t">
           <Title :title="t"></Title>
@@ -21,7 +21,7 @@
         </div>
       </div>
     </div>
-    <div class="d-flex j-sb a-start" style="width:80%;margin:20px auto 0 auto;">      
+    <div class="d-flex j-sb a-start" style="width:80%;margin:20px auto 0 auto;">
       <div class="d-flex j-sb a-center flex-wrap" style="width:100%;white-space: nowrap;overflow:hidden;height:160px">
         <div class="px-2 click" style="width: 20%;margin-bottom:10px" v-for="(t,index) in list['最新']" :key="t" @click="link(index)">
           <img :src="require('@/assets/'+t.img)" alt="" style="width:100%;height:130px">
@@ -38,6 +38,16 @@ import Main from '@/components/Main.vue'
 import CardList from '@/components/CardList.vue'
 import data from '@/assets/js/data.js'
 import Title from '@/components/Title.vue'
+
+function getMobile() {
+  var prefixArray = new Array("130", "131", "132", "133", "135", "137", "138", "170", "187", "189");
+  var i = parseInt(10 * Math.random());
+  var prefix = prefixArray[i];
+  for (var j = 0; j < 8; j++) {
+    prefix = prefix + Math.floor(Math.random() * 10);
+  }
+  return prefix
+}
 
 export default {
   name: 'Home',
@@ -64,6 +74,8 @@ export default {
     link (index) {
       this.$router.push('/detail?name=最新&index=' + index)
     }
+  },
+  created() {
   }
 }
 </script>

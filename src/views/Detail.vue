@@ -20,8 +20,11 @@
           <div class="mb-2">
             地址：{{detail.address}}
           </div>
+          <div class="mb-2" v-if="showtel">
+            电话：<span class="font-lg text-info">{{detail.mobile}}</span>
+          </div>
           <div class="mb-2">
-            <a-button type="primary" size="large" @click="onSubmit">
+            <a-button type="primary" size="large" @click="onSubmit('tel')">
               <PhoneOutlined />电话联系TA</a-button>
             <a-button type="warning" size="large" class="ml-3 bg-warning text-white" @click="onSubmit">
               <WechatOutlined />微聊</a-button>
@@ -69,11 +72,19 @@ export default {
   data () {
     return {
       detail: data.list[this.$route.query.name][this.$route.query.index],
-      types: data.types
+      types: data.types,
+      showtel: false
     }
   },
   mounted () {
     window.scrollTo(0, 0)
+  },
+  methods: {
+    onSubmit(s) {
+      if(s == 'tel') {
+        this.showtel = true
+      }
+    }
   }
 }
 </script>

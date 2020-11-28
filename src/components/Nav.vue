@@ -15,7 +15,10 @@
 					<a class="d-block px-2 text-white click hover w-100 h-100" href="cs.html" target="_blank">安全监管措施</a>
 				</div>
         <div class="">
-        	<a class="d-block px-2 text-white click hover w-100 h-100" href="wq.html" target="_blank">维权中心</a>
+        	<router-link to="/shoufei" class="d-block px-2 text-white click hover w-100 h-100" :class="{active:$route.name == 'Shoufei'}">收费说明</router-link>
+        </div>
+        <div class="">
+        	<a class="d-block px-2 text-white click hover w-100 h-100 font" href="wq.html" target="_blank">递送服务维权中心</a>
         </div>
       </div>
     </div>
