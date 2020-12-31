@@ -4,7 +4,7 @@ const data = {
     weblogo: '',
     webname: '武穴市亿龙科技有限公司',
     beian: '鄂ICP备2020018553号-1',
-    beianlink: '',
+    beianlink: 'https://beian.miit.gov.cn/',
     address: '湖北省黄冈市武穴市大法寺镇李堂选村（李青书私宅）'
   },
   swiper: [
