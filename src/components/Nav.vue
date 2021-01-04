@@ -18,7 +18,7 @@
         	<router-link to="/shoufei" class="d-block px-2 text-white click hover w-100 h-100" :class="{active:$route.name == 'Shoufei'}">收费说明</router-link>
         </div>
         <div class="">
-        	<a class="d-block px-2 text-white click hover w-100 h-100 font" href="wq.html" target="_blank">递送服务维权中心</a>
+        	<a class="d-block px-2 text-white click hover w-100 h-100 font" href="wq.html" target="_blank">用户维权中心</a>
         </div>
       </div>
     </div>

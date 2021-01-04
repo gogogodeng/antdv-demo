@@ -3,11 +3,11 @@
     <div style="width: 25%;" v-if="side=='left'">
       <img :src="sideurl" alt="">
     </div>
-    <div class="j-sb a-center flex-wrap flex-1">
-      <div class="text-left click mb-1" style="width: 80%;" v-for="(item,index) in list" :key="index" @click="link(index)">
+    <div class="j-start a-center flex-wrap d-flex">
+      <div class="text-left click mb-1" style="width: 30%;margin-right: 3%;" v-for="(item,index) in list" :key="index" @click="link(index)">
         <div v-if="index<=max-1">
           <!-- <img :src="require('@/assets/'+item.img)" alt="" style="width: 85%;height: 160px;"> -->
-          <div class="text-left hover" style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;">{{item.title}}</div>
+          <div class="text-left hover" style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;">{{ '['+ name +']'+ item.title}}</div>
         </div>
       </div>
     </div>

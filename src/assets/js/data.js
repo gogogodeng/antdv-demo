@@ -1,26 +1,24 @@
 const data = {
   webinfo: {
-    webtitle: '武汉方兔网络科技有限公司',
-    weblogo: '武汉方兔网络科技',
-    webname: '武汉方兔网络科技有限公司 | 联系方式：15827481881',
-    beian: '鄂ICP备18028038号-4',
-    beianlink: '',
-    address: '武昌区和平大道750号绿地国际金融城A01-1地块一期第2、3、4幢3号楼14层3号房-2',
-    tel: 15827481881
+    webtitle: '武汉食途信息技术有限公司',
+    weblogo: '武汉食途信息',
+    webname: '武汉食途信息技术有限公司 | 联系方式：13871180144',
+    beian: '鄂ICP备 2020019285号-2',
+    beianlink: 'https://beian.miit.gov.cn/',
+    address: '武汉东湖新技术开发区光谷大道41号现代·国际设计城一期4栋14层03号C60（自贸区武汉片区）',
+    tel: 13871180144
   },
   swiper: [
-    'images/swiper1.jpg',
-    'images/swiper2.jpg'
+    'images/b1.jpg',
+    'images/b2.jpg'
   ],
   types: [
     '最新',
-    '房屋信息',
     '二手汽车',
     '二手相机',
     '二手电脑',
     '手机转让',
     '笔记本',
-    '电动车'
   ],
   list: {
     "最新": [{

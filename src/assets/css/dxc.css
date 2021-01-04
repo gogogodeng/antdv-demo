@@ -5,12 +5,12 @@ image{will-change: transform}
 .scroll-row-item{ display: inline-block; }
 
 body{
-	--primary:#12648a;
-	--secondary: #0f6ebd;
+	--primary:#ecb51e;
+	--secondary: #d1930e;
 	--success: #28a745;
 	--danger: #dc3545;
 	--warning: #ff9c07;
-	--info: #38b6ff;
+	--info: #a15004;
 	--light: #ececec;
 	--dark: #2c3e50;
 	--muted: #6c757d;
