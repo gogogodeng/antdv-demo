@@ -43,6 +43,32 @@
         <div class="text-warning font-md my-2">
           小贴士：本页信息由用户及第三方发布，真实性、合法性由发布人负责，请仔细甄别。
         </div>
+        <div style="font-size: 18px;margin-top: 40px;">
+          担心服务没保障？注意这三步，持续为你护航
+          <div class="d-flex j-sa a-center mt-2">
+            <div class="d-flex a-center">
+              <img src="@/assets/images/gou@2x.png" style="width: 34px;height: 34px;margin-right: 20px;" alt="">
+              <div>
+                <h4 style="font-size: 18px;">线上沟通</h4>
+                <h5 style="font-size: 14px;">与商家的沟通确保都已录音</h5>
+              </div>
+            </div>
+            <div class="d-flex a-center">
+              <img src="@/assets/images/gou@2x.png" style="width: 34px;height: 34px;margin-right: 20px;" alt="">
+              <div>
+                <h4 style="font-size: 18px;">线下服务</h4>
+                <h5 style="font-size: 14px;">与商家所有交流确保留有证据</h5>
+              </div>
+            </div>
+            <div class="d-flex a-center">
+              <img src="@/assets/images/gou@2x.png" style="width: 34px;height: 34px;margin-right: 20px;" alt="">
+              <div>
+                <h4 style="font-size: 18px;">服务售后</h4>
+                <h5 style="font-size: 14px;">有保障期的服务请与商家确定保障实效</h5>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="flex-1 ml-3 p-1 border-default">
