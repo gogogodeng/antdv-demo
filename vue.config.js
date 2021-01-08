@@ -14,5 +14,12 @@ module.exports = {
     plugins: [
       new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
     ]
+  },
+  chainWebpack: config => {
+    config.plugins.delete('preload')
+    config.plugins.delete('prefetch')
+    config
+    .plugin('webpack-bundle-analyzer')
+    .use(require('webpack-bundle-analyzer').BundleAnalyzerPlugin)
   }
 }
