@@ -1,3 +1,5 @@
+const webpack = require('webpack')
+
 module.exports = {
   publicPath: '',
   devServer: {
@@ -6,5 +8,10 @@ module.exports = {
       errors: false
     }
   },
-  lintOnSave: false
+  lintOnSave: false,
+  configureWebpack: {
+    plugins: [
+      new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
+    ]
+  }
 }
