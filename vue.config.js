@@ -9,6 +9,7 @@ module.exports = {
     }
   },
   lintOnSave: false,
+  productionSourceMap: false,
   configureWebpack: {
     plugins: [
       new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
