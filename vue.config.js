@@ -6,5 +6,6 @@ module.exports = {
       errors: false
     }
   },
-  lintOnSave: false
+  lintOnSave: false,
+  productionSourceMap: false
 }
