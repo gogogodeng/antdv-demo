@@ -7,5 +7,15 @@ module.exports = {
     }
   },
   lintOnSave: false,
-  productionSourceMap: false
+  productionSourceMap: false,
+  productionSourceMap: false,
+  configureWebpack: {
+    plugins: [
+      new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
+    ]
+  },
+  chainWebpack: config => {
+    config.plugins.delete('preload')
+    config.plugins.delete('prefetch')
+  }
 }
