@@ -43,13 +43,12 @@
 </template>
 
 <script>
-
+import { Carousel, Button } from 'ant-design-vue'
+import { AppstoreAddOutlined } from '@ant-design/icons-vue'
 import data from '@/assets/js/data.js'
 export default {
   components: {
-    Carousel: ()=> import('ant-design-vue/lib/carousel'), 
-    Button: ()=> import('ant-design-vue/lib/button'),
-    AppstoreAddOutlined: ()=> import('@ant-design/icons-vue/AppstoreAddOutlined'), 
+    Carousel, Button, AppstoreAddOutlined
   },
   data () {
     return {
