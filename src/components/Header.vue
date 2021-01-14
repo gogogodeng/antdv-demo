@@ -15,10 +15,13 @@
       </div>
       <div class="" style="margin-left: 100px;">
         <div class="text-center" style="width: 200px;">
-          <div class="p-1 px-2 border-default click bg-primary text-white border-primary text-center" @click="link">
-            <SearchOutlined />
+          <div class="p-1 px-2 border-default click bg-light text-dark border-light text-center position-relative" @click="link">
+            <ShoppingCartOutlined />
             <div class="ml-1 d-inline-block">
-              免费发布信息
+              去购物车结算
+            </div>
+            <div style="position: absolute;right: 10px;top: 0;">
+              <Badge count="0"></Badge>
             </div>
           </div>
         </div>
@@ -28,12 +31,16 @@
 </template>
 
 <script>
-import { SearchOutlined } from '@ant-design/icons-vue'
+import { SearchOutlined,ShoppingCartOutlined } from '@ant-design/icons-vue'
+import { Badge } from 'ant-design-vue'
+
 import data from '@/assets/js/data.js'
 
 export default {
   components: {
-    SearchOutlined
+    SearchOutlined,
+    ShoppingCartOutlined,
+    Badge
   },
   data () {
     return {

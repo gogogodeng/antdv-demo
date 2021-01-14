@@ -1,6 +1,6 @@
 const data = {
   webinfo: {
-    webtitle: '亿龙科技',
+    webtitle: 'XXX商城',
     weblogo: '',
     webname: '武穴市亿龙科技有限公司',
     beian: '鄂ICP备2020018553号-1',
@@ -11,12 +11,17 @@ const data = {
     'images/banner.jpg'
   ],
   types: [
-    '最新',
-    '电动车',
-    '二手家具',
-    '二手图书',
-    '二手家电'
-  ],
+    '台式电脑',
+    '手机通讯',
+    '笔记本',
+    '办公电器'
+	],
+	typesimgs: {
+		'台式电脑':'images/ad1.jpg',
+		'手机通讯':'images/ad2.jpg',
+		'笔记本':'images/ad3.jpg',
+		'办公电器':'images/ad4.jpg'
+	},
   list: {
     '最新': [
       {
@@ -56,7 +61,7 @@ const data = {
       	"img": "images/type5/10.jpg"
       },
     ],
-    '电动车': [
+    '台式电脑': [
       {
       	"title": "出售电动三轮车 电动车，全封闭老年代步车 快递车环",
       	"address": "武汉",
@@ -148,7 +153,7 @@ const data = {
       	"img": "images/type2/10.jpg"
       },
     ],
-    '二手家具': [
+    '手机通讯': [
       {
       	"title": "出租房专用床喜欢上门拿走",
       	"address": "硚口武胜路",
@@ -222,7 +227,7 @@ const data = {
       	"img": "images/type3/8.jpg"
       },
     ],
-    '二手图书': [
+    '笔记本': [
       {
       	"title": "全新2021中公国考教材及历年真题解析",
       	"address": "江岸球场街",
@@ -296,7 +301,7 @@ const data = {
       	"img": "images/type4/11.jpg"
       }
     ],
-    '二手家电': [
+    '办公电器': [
       {
       	"title": "专业出租出售各品牌柜式 壁挂式 中央空调等家用商用",
       	"address": "武昌",

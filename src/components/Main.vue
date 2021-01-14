@@ -2,7 +2,14 @@
   <div class="main">
     <template v-for="t in types" :key="t">
       <Title :title="t"></Title>
-      <CardList :list="list[t]" :name="t"></CardList>
+      <div class="d-flex j-start a-start">
+        <div>
+          <img :src="require('@/assets/'+typesimgs[t])" alt="" style="width: 185px;">
+        </div>
+        <div>
+          <CardList :list="list[t]" :name="t"></CardList>
+        </div>
+      </div>
       <hr>
     </template>
   </div>
@@ -21,7 +28,8 @@ export default {
   data () {
     return {
       types: data.types,
-      list: data.list
+      list: data.list,
+      typesimgs: data.typesimgs
     }
   }
 }

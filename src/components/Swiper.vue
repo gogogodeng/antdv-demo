@@ -2,7 +2,8 @@
   <div class="position-relative" style="height: 400px;">
     <div class="position-absolute py-3" style="background-color: rgba(0,0,0,0.6);height: 100%;width: 200px;top: 0;left: 10%;z-index: 9;">
       <div class="text-white px-2 py-1 font-md hover click" v-for="t in types" :key="t" @click="link(t)">
-        <AppstoreAddOutlined /> {{t}}
+        <!-- <AppstoreAddOutlined />  -->
+        {{t}}
       </div>
     </div>
     <Carousel autoplay>
@@ -19,25 +20,28 @@
           <div>
             hi,欢迎光临
           </div>
-          <div class="d-flex j-start" style="">
+          <!-- <div class="d-flex j-start" style="">
             <router-link class="text-primary mr-2" to="/register">注册</router-link>
             <router-link class="text-primary" to="/login">登录</router-link>
-          </div>
+          </div> -->
         </div>
       </div>
-      <div class="text-center pt-2">
-        <router-link to="/publish">
-          <Button size="middle" block>发布信息</Button>
+      <div class="text-center pt-2 d-flex j-sa a-center">
+        <router-link to="/login">
+          <Button size="middle" class="bg-danger text-white" block>登录</Button>
+        </router-link>
+        <router-link to="/register">
+          <Button size="middle" block>注册</Button>
         </router-link>
       </div>
-      <div>
+      <!-- <div>
         <div class="border-bottom mt-2 mb-1">
           最新
         </div>
         <div class="nowrap text-overflow mb-0 hover click" v-for="(h,i) in hot" :key="i" @click="detail(i)">
           <span class="text-primary">*</span> {{h.title}}
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

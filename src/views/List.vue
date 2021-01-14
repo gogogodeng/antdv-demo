@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <Item :item="item" :name="name" :index="index" v-for="(item,index) in list" :key="index"></Item>
+  <div class="d-flex j-start flex-wrap a-start" style="width: 85%; margin: auto;">
+    <div style="width: 25%;" v-for="(item,index) in list" :key="index">
+      <Item :item="item" :name="name" :index="index" ></Item>
+    </div>
   </div>
 </template>
 
