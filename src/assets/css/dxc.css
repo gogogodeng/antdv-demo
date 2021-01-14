@@ -83,8 +83,18 @@ textarea:focus{ outline: .5px solid var(--info)!important;}
 .overflow-x{overflow-x: scroll;overflow-y: hidden;}
 .overflow-y{overflow-y: scroll;overflow-x: hidden;}
 .text-overflow {
-	overflow: hidden;
+	overflow : hidden;
 	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+.text-overflow-row-2 {
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
 }
 /* 宽高 */
 .w-100{ width: 100%;}
