@@ -49,7 +49,7 @@ export default {
   },
   methods: {
     link () {
-      this.$router.push('/publish')
+      this.$router.push('/cart')
     }
   }
 }

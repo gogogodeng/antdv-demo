@@ -91,6 +91,10 @@ export default {
   },
   methods: {
     onSubmit() {
+      this.$store.commit('ADD_CART',{
+        ...this.detail,
+        num: this.num
+      })
       this.$router.push('/cart')
     }
   }
