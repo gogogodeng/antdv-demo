@@ -1,43 +1,16 @@
 <template>
-  <div class="position-relative" style="height: 400px;">
-    <div class="position-absolute py-3" style="background-color: rgba(0,0,0,0.6);height: 100%;width: 200px;top: 0;left: 10%;z-index: 9;">
+  <div class="position-relative d-flex a-center j-center" style="height: 400px;width: 80%;margin: auto;">
+    <div class="py-3" style="background-color: rgba(0,0,0,0.6);height: 100%;width: 200px;top: 0;left: 10%;z-index: 9;">
       <div class="text-white px-2 py-1 font-md hover click" v-for="t in types" :key="t" @click="link(t)">
         <AppstoreAddOutlined /> {{t}}
       </div>
     </div>
-    <Carousel autoplay>
-      <div v-for="(s,i) in swiper" :key="i">
-        <img :src="require('@/assets/'+s)" alt="" style="width: 100%;height: 100%;">
-      </div>
-    </Carousel>
-    <div class="position-absolute p-3 bg-white shadow-sm rounded" style="height: 80%;width: 250px;top: 10%;right: 10%;z-index: 9;">
-      <div class="d-flex j-start a-center">
-        <div>
-          <img src="../assets/images/user.jpg" alt="" class="rounded-circle" style="width: 50px;height: 50px;">
+    <div class="flex-1">
+      <Carousel autoplay style="width: 100%;">
+        <div v-for="(s,i) in swiper" :key="i">
+          <img :src="require('@/assets/'+s)" alt="" style="width: 100%;height: 400px;">
         </div>
-        <div class="pl-2">
-          <div>
-            hi,欢迎光临
-          </div>
-          <div class="d-flex j-start" style="">
-            <router-link class="text-primary mr-2" to="/register">注册</router-link>
-            <router-link class="text-primary" to="/login">登录</router-link>
-          </div>
-        </div>
-      </div>
-      <div class="text-center pt-2">
-        <router-link to="/publish">
-          <Button size="middle" block>发布信息</Button>
-        </router-link>
-      </div>
-      <div>
-        <div class="border-bottom mt-2 mb-1">
-          最新
-        </div>
-        <div class="nowrap text-overflow mb-0 hover click" v-for="(h,i) in hot" :key="i" @click="detail(i)">
-          <span class="text-primary">*</span> {{h.title}}
-        </div>
-      </div>
+      </Carousel>
     </div>
   </div>
 </template>
