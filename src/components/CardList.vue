@@ -7,7 +7,7 @@
       <div class="text-left click mb-1" style="width: 80%;" v-for="(item,index) in list" :key="index" @click="link(index)">
         <div v-if="index<=max-1">
           <!-- <img :src="require('@/assets/'+item.img)" alt="" style="width: 85%;height: 160px;"> -->
-          <div class="text-left hover" style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;">{{item.title}}</div>
+          <div class="text-left hover" style="width: 250px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;">{{item.title}}</div>
         </div>
       </div>
     </div>

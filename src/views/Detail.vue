@@ -33,7 +33,10 @@
         详情
       </div>
       <div class="p-3 font-md">
-        {{detail.desc}}
+        <!-- {{detail.desc}} -->
+
+        <div v-html="detail.desc"></div>
+
         <div class="mt-3">
           <img :src="require('@/assets/'+detail.img)" alt="" style="width: 300px;">
         </div>

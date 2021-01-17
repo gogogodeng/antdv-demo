@@ -1,8 +1,9 @@
 <template>
   <div class="position-relative" style="height: 400px;width: 80%;margin: auto;">
-    <div class="position-absolute py-3" style="background-color: rgba(0,0,0,0.6);height: 100%;width: 200px;top: 0;left: 0;z-index: 9;">
-      <div class="text-white px-2 py-1 font-md hover click" v-for="t in types" :key="t" @click="link(t)">
-        <AppstoreAddOutlined /> {{t}}
+    <div class="position-absolute py-1" style="background-color: rgba(0,0,0,0.3);height: 100%;width: 200px;top: 0;left: 0;z-index: 9;">
+      <div class="text-white px-2 py-1 font-md hover click" v-for="(t,i) in types" :key="t"  @click="link(t)">
+        <!-- <AppstoreAddOutlined />  -->
+        <div v-if="i<7">{{t}}</div>
       </div>
     </div>
     <Carousel autoplay style="padding-left: 200px;">
