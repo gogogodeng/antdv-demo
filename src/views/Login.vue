@@ -22,7 +22,7 @@
   </div>
 </template>
 <script>
-import { Form, Radio, Input, Button, Checkbox } from 'ant-design-vue'
+import { Form, Radio, Input, Button, Checkbox, message } from 'ant-design-vue'
 
 export default {
   components: {
@@ -75,6 +75,17 @@ export default {
       //   .catch(error => {
       //     console.log('error', error)
       //   })
+      if(this.form.name == this.$store.state.userinfo.name) {
+        this.$store.state.haslogin = true
+
+        message.success('登录成功')
+        setTimeout(() => {
+          this.$router.push('/')
+        }, 300);
+
+      } else {
+        message.error('用户或密码错误')
+      }
     },
     resetForm () {
       this.$refs.ruleForm.resetFields()

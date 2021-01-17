@@ -8,8 +8,8 @@
           </div>
         </div>
       </div>
-      <div class="more bg-light rounded font text-muted click">
-        <div class="d-inline-block" @click="link"></div>
+      <div class="more bg-light rounded font text-muted click" @click="link">
+        <div class="d-inline-block"></div>
         <RightOutlined />
       </div>
     </div>

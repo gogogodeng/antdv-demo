@@ -18,7 +18,7 @@
   </div>
 </template>
 <script>
-import { Form, Radio, Input, Button } from 'ant-design-vue'
+import { Form, Radio, Input, Button, message } from 'ant-design-vue'
 
 export default {
   components: {
@@ -43,9 +43,7 @@ export default {
         code: ''
       },
       rules: {
-        name: [{ required: true, message: 'Please input Activity name', trigger: 'blur' }, { min: 3, max: 5, message: 'Length should be 3 to 5', trigger: 'blur' }],
-        region: [{ required: true, message: 'Please select Activity zone', trigger: 'change' }],
-        date1: [{ required: true, message: 'Please pick a date', trigger: 'change', type: 'object' }],
+        name: [{ required: true, message: '请输入用户名', trigger: 'blur' }, { min: 6, max: 50, message: '用户名至少需要6位', trigger: 'blur' }],
         type: [
           {
             type: 'array',
@@ -69,6 +67,15 @@ export default {
       //   .catch(error => {
       //     console.log('error', error)
       //   })
+      this.$store.state.haslogin = true
+      this.$store.state.userinfo.name = this.form.name
+      
+      localStorage.setItem('user', JSON.stringify({name:this.form.name}))
+
+      message.success('注册成功')
+      setTimeout(() => {
+        this.$router.push('/')
+      }, 300);
     },
     resetForm () {
       this.$refs.ruleForm.resetFields()

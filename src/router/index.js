@@ -44,6 +44,11 @@ const routes = [
     path: '/cart',
     name: 'Cart',
     component: () => import('../views/Cart.vue')
+  },
+  {
+    path: '/confirm',
+    name: 'Confirm',
+    component: () => import('../views/Comfirm.vue')
   }
 ]
 

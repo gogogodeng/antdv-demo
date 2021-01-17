@@ -37,9 +37,7 @@
       <router-link to="/">
         <Button style="width: 100px;margin-right: 10px;">继续购物</Button>
       </router-link>
-      <router-link to="/">
-        <Button style="width: 100px;">去结算</Button>
-      </router-link>
+        <Button style="width: 100px;" @click="toend">去结算</Button>
     </div>
   </div>
 </template>
@@ -72,6 +70,14 @@
       },
       numchange(num) {
         console.log(num)
+      },
+      toend() {
+        debugger
+        if(this.$store.state.haslogin = true) {
+          this.$router.push('/confirm?money='+this.total.money)
+        } else {
+          this.$router.push('/login')
+        }
       }
     },
     created() {

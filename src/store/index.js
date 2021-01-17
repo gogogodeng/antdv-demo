@@ -2,7 +2,9 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
-    cartlist: JSON.parse(localStorage.getItem('cart') || '[]')
+    cartlist: JSON.parse(localStorage.getItem('cart') || '[]'),
+    haslogin: false,
+    userinfo: JSON.parse(localStorage.getItem('user') || '{}')
   },
   mutations: {
     ADD_CART(state, item) {

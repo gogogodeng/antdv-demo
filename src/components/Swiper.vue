@@ -8,10 +8,10 @@
     </div>
     <Carousel autoplay>
       <div v-for="(s,i) in swiper" :key="i">
-        <img :src="require('@/assets/'+s)" alt="" style="width: 100%;height: 100%;">
+        <img :src="require('@/assets/'+s)" alt="" style="width: 80%; height: 400px; margin: auto;">
       </div>
     </Carousel>
-    <div class="position-absolute p-3 bg-white shadow-sm rounded" style="height: 80%;width: 250px;top: 10%;right: 10%;z-index: 9;">
+    <div v-if="!haslogin" class="position-absolute p-3 bg-white shadow-sm rounded" style="height: 80%;width: 250px;top: 10%;right: 10%;z-index: 9;">
       <div class="d-flex j-start a-center">
         <div>
           <img src="../assets/images/user.jpg" alt="" class="rounded-circle" style="width: 50px;height: 50px;">
@@ -34,14 +34,17 @@
           <Button size="middle" block>注册</Button>
         </router-link>
       </div>
-      <!-- <div>
+      <div>
         <div class="border-bottom mt-2 mb-1">
-          最新
+          商城公告
         </div>
-        <div class="nowrap text-overflow mb-0 hover click" v-for="(h,i) in hot" :key="i" @click="detail(i)">
+        <div>
+          欢迎光临江西思极智云数字科技有限公司网上商城
+        </div>
+        <!-- <div class="nowrap text-overflow mb-0 hover click" v-for="(h,i) in hot" :key="i" @click="detail(i)">
           <span class="text-primary">*</span> {{h.title}}
-        </div>
-      </div> -->
+        </div> -->
+      </div>
     </div>
   </div>
 </template>
@@ -50,9 +53,14 @@
 import { Carousel, Button } from 'ant-design-vue'
 import { AppstoreAddOutlined } from '@ant-design/icons-vue'
 import data from '@/assets/js/data.js'
+import { mapState } from 'vuex';
+
 export default {
   components: {
     Carousel, Button, AppstoreAddOutlined
+  },
+  computed: {
+    ...mapState([ 'haslogin' ])
   },
   data () {
     return {

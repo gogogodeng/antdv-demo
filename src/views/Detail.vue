@@ -15,12 +15,12 @@
             <div class="mb-2" v-if="detail.brand">
               品牌：{{detail.brand}}
             </div>
-            <div class="mb-2">
+            <!-- <div class="mb-2">
               库存：{{detail.isnew}}
-            </div>
-            <div class="mb-2">
+            </div> -->
+            <!-- <div class="mb-2">
               销量：{{detail.address}}
-            </div>
+            </div> -->
             <div class="mb-2">
               购买数量：<InputNumber :min="1" v-model:value="num"></InputNumber>
               &nbsp;&nbsp;&nbsp;&nbsp; 库存 126124 件
@@ -42,11 +42,11 @@
           商家信息
         </div>
         <div class="text-gray mt-2">
-          <p>商家名称：xxx</p>
+          <p>商家名称：{{detail.brand}}</p>
           <p>描述相符：5 分</p>
           <p>服务态度：5 分</p>
           <p>发货速度：5 分</p>
-          <p>联系方式：xxx</p>
+          <p>联系方式：13767777333</p>
         </div>
       </div>
       <div class="flex-4 p-2">
@@ -54,13 +54,19 @@
           商品详情
         </div>
         <div class="p-3 font-md">
-          {{detail.desc}}
+          <!-- {{detail.desc}} -->
           <div class="mt-3">
-            <img :src="require('@/assets/'+detail.img)" alt="" style="width: 300px;">
+            <img :src="require('@/assets/'+detail.img)" alt="" style="width: 600px;">
           </div>
-          <div class="text-warning font-md my-2">
+          <div class="mt-3">
+            <div v-for="m in detail.imgs">
+              <img :src="m" alt="" style="width: 600px;" >
+            </div>
+            
+          </div>
+          <!-- <div class="text-warning font-md my-2">
             小贴士：本页信息由用户及第三方发布，真实性、合法性由发布人负责，请仔细甄别。
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
