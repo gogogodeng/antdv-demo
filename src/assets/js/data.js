@@ -411,7 +411,7 @@ const data = {
       "desc": "原装快门线，手柄出售，基本上没有使用。现低价出售",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type3/4.jpg",
+      "img": "images/type6/4.jpg",
       "mobile": "13569367587"
     }, {
       "title": "尼康18-105镜头",
@@ -420,7 +420,7 @@ const data = {
       "desc": "2个镜头 两个包 2个电池",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type3/5.jpg",
+      "img": "images/type6/5.jpg",
       "mobile": "13798770800"
     }, {
       "title": "卖索尼A7m2相机 中高端相机 人物 风景摄像",
@@ -429,7 +429,7 @@ const data = {
       "desc": "索尼A7M2 相机定位的话属于中高端机型 大概9成新左右吧 像素242...",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type3/1.jpg",
+      "img": "images/type6/1.jpg",
       "mobile": "18945658180"
     }, {
       "title": "出闲置佳能700D 18-55单反相机全套带镜头",
@@ -438,7 +438,7 @@ const data = {
       "desc": "有明显使用痕迹，但不影响使用。",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type3/2.jpg",
+      "img": "images/type6/2.jpg",
       "mobile": "13158525789"
     }, {
       "title": "闲置原装索尼W630卡片广角高清全自动智能相机",
@@ -447,7 +447,7 @@ const data = {
       "desc": "闲置原装卡片广角全自动智能索尼W630高清相机，1610万像素、五倍变...",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type3/3.jpg",
+      "img": "images/type6/3.jpg",
       "mobile": "18748608780"
     }, {
       "title": "腾龙2470尼康口镜头",
@@ -456,7 +456,7 @@ const data = {
       "desc": "防抖2.8光圈，98层新，无霉无划痕，一切功能正常。不想玩了，放着吃灰...",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type3/6.jpg",
+      "img": "images/type6/6.jpg",
       "mobile": "18712808732"
     }, {
       "title": "未拆封gopro hero7 silver 便宜出",
@@ -465,7 +465,7 @@ const data = {
       "desc": "未拆封gopro hero7 silver 便宜出​，带128G存储卡...",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type3/8.jpg",
+      "img": "images/type6/8.jpg",
       "mobile": "13002746591"
     }, {
       "title": "全新运动相机便宜出",
@@ -474,7 +474,7 @@ const data = {
       "desc": "全新运动相机 全新运动相机4k户外运动相机防水，高清4K 30FPS...",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type3/9.jpg",
+      "img": "images/type6/9.jpg",
       "mobile": "13102491522"
     }, {
       "title": "松下S1H出租",
@@ -483,7 +483,7 @@ const data = {
       "desc": "影师设备租赁 索尼FS7 阿莱小武器 艾比克 松下S1H 索尼A7 佳...",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type3/10.jpg",
+      "img": "images/type6/10.jpg",
       "mobile": "13386488896"
     }, {
       "title": "智云稳定器vlog摄影神器可伸缩延长自拍手持稳定器",
@@ -492,7 +492,7 @@ const data = {
       "desc": "京东购买，全套带三脚架，实在没时间用，",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type3/11.jpg",
+      "img": "images/type6/11.jpg",
       "mobile": "13574647546"
     }, {
       "title": "个人自用D810+27-702.8G",
@@ -501,7 +501,7 @@ const data = {
       "desc": "业余爱好者，平时出门玩拍拍娃，快门数大概小几千这样子，使用非常爱惜，外...",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type3/12.jpg",
+      "img": "images/type6/12.jpg",
       "mobile": "13705917342"
 		}],
 		"房屋信息": [{
@@ -511,7 +511,7 @@ const data = {
       "desc": "1.户型方正，通透敞亮，小区性价比非常高的好房。 2.小区物业管理严格服务到家让你生活放心。 3.小区绿化面积大，绿树成荫， 4.小区人文素质高，地段，社区交通便利，.安静舒适，让你在这享受品质生活。",
       "isnew": "2室1厅1卫",
       "brand": "12687 元/平",
-      "img": "images/type6/1.jpg",
+      "img": "images/type7/1.jpg",
       "mobile": "17060296805"
     }, {
       "title": "融侨悦府 两室 精装 朝南 拎包入住",
@@ -520,7 +520,7 @@ const data = {
       "desc": "楼层好。高度够，日照时间充足。又不至于太高，万一电梯故障也爬得上去。",
       "isnew": "2室2厅1卫",
       "brand": "22103 元/平",
-      "img": "images/type6/2.jpg",
+      "img": "images/type7/2.jpg",
       "mobile": "13327713505"
     }, {
       "title": "老证，精装3房。全房暖气 铁建国际城 近地铁",
@@ -529,7 +529,7 @@ const data = {
       "desc": "买房子是一件大事，所以您一定要选择有经验和专业的经纪人！这样不仅让您买到一套称心如意的房子，还会为您节省大量的时间和精力！在的帖子里面看到我这是我们的缘分！我自信我是个合格专业的经纪人，所以一定会帮你买到一套称心如意的房子！",
       "isnew": "2室1厅1卫",
       "brand": "12687 元/平",
-      "img": "images/type6/3.jpg",
+      "img": "images/type7/3.jpg",
       "mobile": "13354479649"
     }, {
       "title": "南北通透 蓝光COCO时代 电梯房 160万",
@@ -538,7 +538,7 @@ const data = {
       "desc": "次新房。说是二手房，其实一天没住过。跟新房区别是：交房后做过活性炭除甲醛。",
       "isnew": "3室1厅1卫",
       "brand": "18687 元/平",
-      "img": "images/type6/4.jpg",
+      "img": "images/type7/4.jpg",
       "mobile": "13189765377"
     }, {
       "title": "光谷火车站总部国际旁，宇峰家园，满五 ，精装",
@@ -547,7 +547,7 @@ const data = {
       "desc": "户型介绍：房子为毛坯房 明厨明卫 采光好 户型房方正，阳台。视眼开阔，无遮挡。",
       "isnew": "2室1厅1卫",
       "brand": "14007 元/平",
-      "img": "images/type6/5.jpg",
+      "img": "images/type7/5.jpg",
       "mobile": "13189087161"
     }, {
       "title": "超大院子 七星天兴花园 有钥匙 精装修 看中谈",
@@ -556,7 +556,7 @@ const data = {
       "desc": "一楼带有25平米左右的私家花园，可以种花种草，私家休闲，屋内空间利用大，格局清晰，全屋带有暖气 ，小区广场，戴家湖公园，小孩玩耍方便，周边学校，菜市场，商圈都配套齐全，车站几  路程，交通便利，离青山江滩近，饭后散步，休闲都很方便。",
       "isnew": "2室1厅1卫",
       "brand": "13870 元/平",
-      "img": "images/type6/6.jpg",
+      "img": "images/type7/6.jpg",
       "mobile": "13876283816"
     }, {
       "title": "急售 莲花湖畔 近小学 朝南豪装自住经典两房",
@@ -565,7 +565,7 @@ const data = {
       "desc": "一楼带有25平米左右的私家花园，可以种花种草，私家休闲，屋内空间利用大，格局清晰，全屋带有暖气 ，小区广场，戴家湖公园，小孩玩耍方便，周边学校，菜市场，商圈都配套齐全，车站几  路程，交通便利，离青山江滩近，饭后散步，休闲都很方便。",
       "isnew": "2室2厅1卫",
       "brand": "9809 元/平",
-      "img": "images/type6/7.jpg",
+      "img": "images/type7/7.jpg",
       "mobile": "18712988254"
 		}],
 		"二手汽车": [{
@@ -662,7 +662,7 @@ const data = {
 		"二手电脑": [{
       "isnew": "99新",
       "brand": "",
-      "img": "images/type2/1.jpg",
+      "img": "images/type9/1.jpg",
       "title": "苹果款22寸超薄一体机电脑适合办公设计家用",
       "address": "武汉",
       "price": "1499",
@@ -671,7 +671,7 @@ const data = {
     }, {
       "isnew": "99新",
       "brand": "",
-      "img": "images/type2/2.jpg",
+      "img": "images/type9/2.jpg",
       "title": "网咖吃鸡游戏电脑秒杀CF LOL DNF等游戏低价",
       "address": "新洲阳逻开发区",
       "price": "1100",
@@ -680,7 +680,7 @@ const data = {
     }, {
       "isnew": "99新",
       "brand": "",
-      "img": "images/type2/3.jpg",
+      "img": "images/type9/3.jpg",
       "title": "i7十代10700全新网吧2020款的新机型",
       "address": "武昌中南路",
       "price": "5200",
@@ -689,7 +689,7 @@ const data = {
     }, {
       "isnew": "99新",
       "brand": "",
-      "img": "images/type2/4.jpg",
+      "img": "images/type9/4.jpg",
       "title": "特价电脑好棒哦来提吧",
       "address": "汉阳钟家村",
       "price": "489",
@@ -698,7 +698,7 @@ const data = {
     }, {
       "isnew": "99新",
       "brand": "",
-      "img": "images/type2/5.jpg",
+      "img": "images/type9/5.jpg",
       "title": "卖电脑用了几个月",
       "address": "沌口开发区郭徐岭广场",
       "price": "1000",
@@ -707,7 +707,7 @@ const data = {
     }, {
       "isnew": "99新",
       "brand": "",
-      "img": "images/type2/6.jpg",
+      "img": "images/type9/6.jpg",
       "title": "i9英特尔9900全新网咖 高端机型，甩卖",
       "address": "蔡甸蔡甸周边",
       "price": "850",
@@ -716,7 +716,7 @@ const data = {
     }, {
       "isnew": "99新",
       "brand": "",
-      "img": "images/type2/7.jpg",
+      "img": "images/type9/7.jpg",
       "title": "九五新！二手台式办公电脑 主机 商务电脑 亏本处理",
       "address": "武汉",
       "price": "1450",
@@ -725,7 +725,7 @@ const data = {
     }, {
       "isnew": "99新",
       "brand": "",
-      "img": "images/type2/8.jpg",
+      "img": "images/type9/8.jpg",
       "title": "买了笔记本，刚组装不到两个月的电脑，可畅玩各种大型",
       "address": "洪山珞狮南路",
       "price": "1700",
@@ -866,7 +866,7 @@ const data = {
       "desc": "诚意转让，非诚勿扰。我的电脑是正版原装的苹果、支持验机满意再买、超大内...",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type4/1.jpg",
+      "img": "images/type10/1.jpg",
       "mobile": "18729401704"
     }, {
       "title": "《学生急售》i5联想8g256G固态二手笔记本电脑",
@@ -875,7 +875,7 @@ const data = {
       "desc": "本人是在郑州财经大三的学生（可以视频看学生证），现在遇到些事情，刚用一...",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type4/2.jpg",
+      "img": "images/type10/2.jpg",
       "mobile": "17054988348"
     }, {
       "title": "低价转让自用9成新联想 惠普 高端笔记本",
@@ -884,7 +884,7 @@ const data = {
       "desc": "电商公司转行闲置一批办公设备，全部低价处理1联想thinkpad商务本...",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type4/3.jpg",
+      "img": "images/type10/3.jpg",
       "mobile": "13776700922"
     }, {
       "title": "《学生自用》i5联想8G256G固态二手笔记本电脑",
@@ -893,7 +893,7 @@ const data = {
       "desc": "电脑是大学时候在联想专卖店购买的用一年多，用的很爱惜，没有坏过也没有修...",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type4/4.jpg",
+      "img": "images/type10/4.jpg",
       "mobile": "13880647594"
     }, {
       "title": "出台高配的苹果笔记本电脑95新",
@@ -902,7 +902,7 @@ const data = {
       "desc": "自用一台13.3寸苹果笔记本电脑 电脑流畅可适合用来办公 追剧 制图 ...",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type4/5.jpg",
+      "img": "images/type10/5.jpg",
       "mobile": "13756619983"
     }, {
       "title": "高配的惠普笔记本i5处理器128G固态硬盘8G内存",
@@ -911,7 +911,7 @@ const data = {
       "desc": "诚心卖本人惠普笔记本。无论玩游戏或者办公都可以，网页反应很快，软件反应...",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type4/6.jpg",
+      "img": "images/type10/6.jpg",
       "mobile": "13385969072"
     }, {
       "title": "丫头出才用几个月酷睿高端游戏笔记本渲染作图方便携带",
@@ -920,7 +920,7 @@ const data = {
       "desc": "全新的4800 相当于用了才几个月都在质保期内 大型游戏办公无压力 ",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type4/7.jpg",
+      "img": "images/type10/7.jpg",
       "mobile": "13389705075"
     }, {
       "title": "转让戴尔笔记本电脑，办公，作图，炒股，PS，CAD",
@@ -929,7 +929,7 @@ const data = {
       "desc": "转让一手戴尔商务笔记本电脑，非常有质感。经典黑色的，14寸高清大屏幕",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type4/8.jpg",
+      "img": "images/type10/8.jpg",
       "mobile": "13022028303"
     }, {
       "title": "自己用的笔记本电脑，95成新进口投影仪，配件齐全，",
@@ -938,7 +938,7 @@ const data = {
       "desc": "低价转让，自己用的爱惜，使用少，电池基本没有损耗，电脑包，鼠标，鼠标垫...",
       "isnew": "9新",
       "brand": "",
-      "img": "images/type4/9.jpg",
+      "img": "images/type10/9.jpg",
       "mobile": "13328017848"
 		}],
 		"招聘": [
