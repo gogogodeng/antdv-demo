@@ -8,7 +8,7 @@ const data = {
     address: '湖北省黄冈市武穴市大法寺镇李堂选村（李青书私宅）'
   },
   swiper: [
-    'images/banner.jpg'
+    'images/banner.jpg','images/banner2.jpg',
   ],
   types: [
     '最新',
@@ -47,6 +47,15 @@ const data = {
       	"img": "images/type4/11.jpg"
       },
       {
+      	"title": "低价出售二手冰柜,空调热水器,展示柜(实体店面)厂",
+      	"address": "江汉前进/江汉",
+      	"price": "550",
+      	"desc": "全新价格优惠！！！厂家直销批发 冰柜、冰箱、洗衣机、展示柜、... ",
+      	"isnew": "9新",
+      	"brand": "",
+      	"img": "images/type5/10.jpg"
+			},
+			{
       	"title": "低价出售二手冰柜,空调热水器,展示柜(实体店面)厂",
       	"address": "江汉前进/江汉",
       	"price": "550",

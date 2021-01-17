@@ -1,10 +1,15 @@
 <template>
   <div class="main">
-    <template v-for="t in types" :key="t">
-      <Title :title="t"></Title>
-      <CardList :list="list[t]" :name="t"></CardList>
-      <hr>
-    </template>
+    <div class="d-flex a-start j-start flex-wrap">
+      <div class="bg-white" v-for="t in types" :key="t" style="width: 25%;padding: 10px;">
+        <Title :title="t"></Title>
+        
+          <div>
+            <CardList :list="list[t]" :name="t"></CardList>
+          </div>
+        <!-- <hr> -->
+        </div>
+    </div>
   </div>
 </template>
 

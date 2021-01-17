@@ -1,17 +1,15 @@
 <template>
-  <div class="position-relative d-flex a-center j-center" style="height: 400px;width: 80%;margin: auto;">
-    <div class="py-3" style="background-color: rgba(0,0,0,0.6);height: 100%;width: 200px;top: 0;left: 10%;z-index: 9;">
+  <div class="position-relative" style="height: 400px;width: 80%;margin: auto;">
+    <div class="position-absolute py-3" style="background-color: rgba(0,0,0,0.6);height: 100%;width: 200px;top: 0;left: 0;z-index: 9;">
       <div class="text-white px-2 py-1 font-md hover click" v-for="t in types" :key="t" @click="link(t)">
         <AppstoreAddOutlined /> {{t}}
       </div>
     </div>
-    <div class="flex-1">
-      <Carousel autoplay style="width: 100%;">
-        <div v-for="(s,i) in swiper" :key="i">
-          <img :src="require('@/assets/'+s)" alt="" style="width: 100%;height: 400px;">
-        </div>
-      </Carousel>
-    </div>
+    <Carousel autoplay style="padding-left: 200px;">
+      <div v-for="(s,i) in swiper" :key="i">
+        <img :src="require('@/assets/'+s)" alt="" style="width: 100%;height: 400px;">
+      </div>
+    </Carousel>
   </div>
 </template>
 

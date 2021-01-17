@@ -1,7 +1,7 @@
 <template>
   <div class="my-2">
     <div class="title d-flex j-sb a-center">
-      <div class="subtitle border-left border-warning position-relative">
+      <div class="subtitle position-relative">
         <div class="position-absolute" style="white-space: nowrap;">
           <div class="text-left">
             {{title}}
@@ -9,11 +9,11 @@
         </div>
       </div>
       <div class="more bg-light rounded font text-muted click">
-        <div class="d-inline-block" @click="link"></div>
-        <RightOutlined />
+        <div class="d-inline-block" @click="link">更多</div>
+        <!-- <RightOutlined /> -->
       </div>
     </div>
-    <!-- <hr> -->
+    <hr>
   </div>
 </template>
 
