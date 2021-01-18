@@ -1,11 +1,11 @@
 const data = {
   webinfo: {
-    webtitle: 'XXX商城',
+    webtitle: '蓝锐思商城',
     weblogo: '',
-    webname: '武穴市亿龙科技有限公司',
-    beian: '鄂ICP备2020018553号-1',
+    webname: '武汉市蓝锐思科技有限公司',
+    beian: '鄂ICP备16020039号-1',
     beianlink: 'https://beian.miit.gov.cn/',
-    address: '湖北省黄冈市武穴市大法寺镇李堂选村（李青书私宅）'
+    address: '武汉市青山区中国一冶高新技术产业园（冶金大道180号）3栋3009室'
   },
   swiper: [
     'images/banner.jpg'

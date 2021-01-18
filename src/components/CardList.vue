@@ -8,6 +8,7 @@
         <div v-if="index<=max-1">
           <img :src="require('@/assets/'+item.img)" alt="" style="height: 160px;">
           <div class="text-center m-auto" style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;max-width: 170px;">{{item.title}}</div>
+          <div class="text-danger">￥{{item.price}}</div>
         </div>
       </div>
     </div>

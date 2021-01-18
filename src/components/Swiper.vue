@@ -39,7 +39,7 @@
           商城公告
         </div>
         <div>
-          欢迎光临江西思极智云数字科技有限公司网上商城
+          欢迎光临{{data.webinfo.webname}}网上商城
         </div>
         <!-- <div class="nowrap text-overflow mb-0 hover click" v-for="(h,i) in hot" :key="i" @click="detail(i)">
           <span class="text-primary">*</span> {{h.title}}
@@ -64,6 +64,7 @@ export default {
   },
   data () {
     return {
+      data: data,
       types: data.types,
       swiper: data.swiper,
       hot: data.list[data.types[0]]
