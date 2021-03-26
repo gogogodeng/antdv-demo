@@ -50,9 +50,9 @@
         <div class="mt-3">
           <img :src="require('@/assets/'+detail.img)" alt="" style="width: 300px;">
         </div>
-        <div class="text-danger font-md my-2">
+        <!-- <div class="text-danger font-md my-2">
           小贴士：本页信息由用户及第三方发布，真实性、合法性由发布人负责，请仔细甄别。
-        </div>
+        </div> -->
         <div style="font-size: 18px;margin-top: 40px;">
           担心服务没保障？注意这三步，持续为你护航
           <div class="d-flex j-sa a-center mt-2">
